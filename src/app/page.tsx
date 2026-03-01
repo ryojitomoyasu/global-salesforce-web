@@ -14,14 +14,14 @@ export default function Home() {
 
       <main className="flex-1">
         {/* SKYLINE HERO IMAGE */}
-        <section className="w-full bg-white relative flex justify-center items-center overflow-hidden pt-8 md:pt-12">
+        <section className="w-full bg-white relative flex justify-center items-center overflow-hidden pt-0 md:pt-12">
           <div className="relative w-full flex justify-center" style={{ isolation: 'isolate' }}>
-            <div className="w-[90%] md:w-[85%] lg:w-[80%] max-w-7xl mix-blend-multiply" style={{ WebkitMixBlendMode: 'multiply' }}>
+            <div className="w-full md:w-[85%] lg:w-[80%] max-w-7xl mix-blend-multiply" style={{ WebkitMixBlendMode: 'multiply' }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/skyline.jpg?v=12"
                 alt="Global Sales Force New York Skyline"
-                className="w-full h-auto object-contain"
+                className="w-[115%] max-w-none -ml-[7.5%] -mt-4 md:w-full md:max-w-full md:ml-0 md:mt-0 h-auto object-contain"
                 style={{
                   filter: "brightness(1.5) contrast(1.8) grayscale(0.2)",
                   WebkitFilter: "brightness(1.5) contrast(1.8) grayscale(0.2)",
