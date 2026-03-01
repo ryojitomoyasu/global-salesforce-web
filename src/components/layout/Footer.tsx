@@ -22,15 +22,6 @@ export function Footer() {
                     </div>
                 </div>
 
-                <div>
-                    <h4 className="font-semibold mb-4">Services</h4>
-                    <ul className="space-y-3 text-sm text-muted-foreground">
-                        <li><Link href="/services/go-to-market" className="hover:text-foreground transition-colors">US市場参入支援</Link></li>
-                        <li><Link href="/services/sales-agency" className="hover:text-foreground transition-colors">営業代行・開拓</Link></li>
-                        <li><Link href="/services/channel-strategy" className="hover:text-foreground transition-colors">チャネル戦略</Link></li>
-                        <li><Link href="/services/promotion" className="hover:text-foreground transition-colors">店頭施策・販促</Link></li>
-                    </ul>
-                </div>
 
                 <div>
                     <h4 className="font-semibold mb-4">Company</h4>
