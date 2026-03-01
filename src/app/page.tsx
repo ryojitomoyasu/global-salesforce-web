@@ -21,7 +21,7 @@ export default function Home() {
               src="/skyline.jpg?v=11"
               alt="Global Sales Force New York Skyline"
               className="w-[90%] md:w-[85%] lg:w-[80%] max-w-7xl h-auto object-contain opacity-100 mix-blend-multiply"
-              style={{ filter: "brightness(1.15) contrast(1.3)" }}
+              style={{ filter: "brightness(1.5) contrast(1.8) grayscale(0.2)", WebkitFilter: "brightness(1.5) contrast(1.8) grayscale(0.2)" }}
             />
           </div>
         </section>
