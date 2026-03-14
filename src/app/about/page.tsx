@@ -70,31 +70,7 @@ export default function AboutPage() {
                         </div>
                     </div>
 
-                    <div className="max-w-3xl mx-auto">
-                        <h2 className="text-3xl font-bold tracking-tight mb-8">Company Profile</h2>
-                        <div className="border border-border rounded-md divide-y divide-border">
-                            <div className="flex flex-col md:flex-row p-6">
-                                <div className="md:w-1/3 font-semibold text-muted-foreground mb-2 md:mb-0">会社名</div>
-                                <div className="md:w-2/3">Global Sales Force, Inc.</div>
-                            </div>
-                            <div className="flex flex-col md:flex-row p-6">
-                                <div className="md:w-1/3 font-semibold text-muted-foreground mb-2 md:mb-0">所在地</div>
-                                <div className="md:w-2/3">
-                                    (HQ) New York, NY<br />
-                                    (Branch) Los Angeles, CA<br />
-                                    ※デモ用のプレースホルダです
-                                </div>
-                            </div>
-                            <div className="flex flex-col md:flex-row p-6">
-                                <div className="md:w-1/3 font-semibold text-muted-foreground mb-2 md:mb-0">事業内容</div>
-                                <div className="md:w-2/3">
-                                    ・米国における食品メーカーの営業代行<br />
-                                    ・販路開拓およびディストリビューション支援<br />
-                                    ・マーケティング戦略立案・実行
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </main>
             <Footer />
