@@ -6,12 +6,11 @@ import Autoplay from 'embla-carousel-autoplay';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const partners = [
-    { name: "Calbee", logoUrl: "https://globalsalesforceinc.com/wp-content/uploads/2021/07/Calbee-RED-logo-2.png" },
-    { name: "Sun Noodle", logoUrl: "https://globalsalesforceinc.com/wp-content/uploads/2021/07/SUN-NOODLE-LOGO-100920-2-1024x752.png" },
-    { name: "Ito En", logoUrl: "https://globalsalesforceinc.com/wp-content/uploads/2021/07/Logo-2-1024x967.jpg" },
-    { name: "Taguchi", logoUrl: "https://globalsalesforceinc.com/wp-content/uploads/2022/04/taguchi%E6%96%B0%E3%83%AD%E3%82%B41-22043-1.png" },
-    { name: "Nito", logoUrl: "https://globalsalesforceinc.com/wp-content/uploads/2021/07/%E4%BA%8C%E5%85%8E%E3%83%AD%E3%82%B4.jpg" },
-    { name: "Yatsushika", logoUrl: "https://globalsalesforceinc.com/wp-content/uploads/2021/07/%E5%85%AB%E9%B9%BF%E3%81%B2%E3%81%92%E6%96%87%E5%AD%97%E6%AD%A3%E8%A6%8F%EF%BC%89.jpg" }
+    { name: "Calbee", logoUrl: "/logos/Calbee%20-%20Logo.png" },
+    { name: "Sun Noodle", logoUrl: "/logos/Sun%20Noodle%20Logo.png" },
+    { name: "Ito En", logoUrl: "/logos/ITO%20EN%20-%20Logo.jpg" },
+    { name: "Taguchi", logoUrl: "/logos/Taguchi%20-%20Logo.png" },
+    { name: "Nito", logoUrl: "/logos/Nito%20-%20Logo.jpg" }
 ];
 
 export function PartnersCarousel() {
