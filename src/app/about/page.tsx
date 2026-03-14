@@ -16,26 +16,29 @@ export default function AboutPage() {
             <main className="flex-1 bg-background pt-16 pb-24">
                 <div className="container-custom">
                     <div className="max-w-3xl mb-16 border-b border-border pb-8">
-                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">About Us</h1>
-                        <p className="text-xl text-muted-foreground">
-                            私たちは、日本の素晴らしい食文化や商品をアメリカ全土へ届けるための「実践的パートナー」です。
-                        </p>
+                        <p className="text-sm font-semibold text-muted-foreground uppercase tracking-widest mb-4">企業理念・ミッションステートメント</p>
+                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                            「日本の食品をアメリカに紹介し文化を作っていく。」
+                        </h1>
                     </div>
 
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
-                        <div>
-                            <h2 className="text-3xl font-bold tracking-tight mb-6">Our Mission</h2>
-                            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                                日本のメーカーが持つ「品質へのこだわり」と、アメリカ市場が求める「価値」を的確に繋ぎ、持続可能なビジネスを構築すること。<br /><br />
-                                単なるコンサルティングにとどまらず、現場に立ち、汗をかきながら商談をまとめる営業部隊として、貴社の売上拡大にコミットします。
+                    <div className="max-w-3xl mb-24">
+                        <div className="text-lg text-muted-foreground leading-loose space-y-6">
+                            <p>
+                                Sushi、Ramen、Izakayaなどが次々に英語になっております。これは勝手に広がったのではなく、広げた日本人がいるのです。一度しかない人生、我々が次の日本食を英語に変えていく立役者になりたいと思っております。
+                            </p>
+                            <p>
+                                アメリカに進出したいが様々な理由で進出できない、二の足を踏んでいるメーカーさんがたくさんおられます。我々がそんなメーカーさんの商品をアメリカで売り、売上の土台を作り、進出の準備をしていきたいと思っております。アメリカに支店や子会社を作られた暁には我々が養った知識やコネクションを共有し一緒に成長していきたいと思っております。
+                            </p>
+                            <p className="text-2xl font-bold text-foreground">
+                                日本食をアメリカに、そしてアメリカから世界に！
+                            </p>
+                            <p>
+                                食文化を広げる、ブランドを広げるには時間がかかります。しかし、今やらないと今後いつまで経っても広がることはありません。世界にも類を見ない異文化を受け入れることに抵抗のない、寛容なアメリカという国で、我々と一緒に御社の素敵な商品を広げましょう。
                             </p>
                         </div>
-                        <div className="aspect-video w-full bg-muted rounded-md relative overflow-hidden">
-                            {/* Placeholder for an office or team photo */}
-                            <div className="absolute inset-0 bg-neutral-200 dark:bg-neutral-800" />
-                            <div className="absolute inset-0 flex items-center justify-center text-muted-foreground font-medium">Team Photo Placeholder</div>
-                        </div>
                     </div>
+
 
                     <div className="mb-24">
                         <h2 className="text-3xl font-bold tracking-tight mb-10 text-center">Why Us</h2>
