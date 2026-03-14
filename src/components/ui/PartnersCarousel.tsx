@@ -37,12 +37,12 @@ export function PartnersCarousel() {
                             className="flex-[0_0_50%] md:flex-[0_0_33.333%] lg:flex-[0_0_20%] min-w-0 pl-4 py-4"
                             key={index}
                         >
-                            <div className="relative h-12 md:h-16 w-full grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                            <div className="relative h-12 md:h-16 w-full flex items-center justify-center cursor-pointer group">
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src={partner.logoUrl}
                                     alt={`${partner.name} logo`}
-                                    className="max-w-[120px] max-h-full object-contain"
+                                    className="max-w-[120px] max-h-full object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
                                     loading="lazy"
                                 />
                             </div>
