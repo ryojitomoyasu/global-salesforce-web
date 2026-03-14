@@ -16,7 +16,7 @@ export default function Home() {
         {/* SKYLINE HERO IMAGE */}
         <section className="w-full bg-white relative flex justify-center items-center overflow-hidden pt-0 md:pt-12">
           <div className="relative w-full flex justify-center" style={{ isolation: 'isolate' }}>
-            <div className="w-full md:w-[85%] lg:w-[80%] max-w-7xl mix-blend-multiply" style={{ WebkitMixBlendMode: 'multiply' }}>
+            <div className="w-full md:w-[85%] lg:w-[80%] max-w-7xl mix-blend-multiply">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/skyline.jpg?v=12"
