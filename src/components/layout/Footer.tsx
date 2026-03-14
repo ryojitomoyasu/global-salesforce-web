@@ -11,15 +11,7 @@ export function Footer() {
                         日本の食文化をアメリカに広げる。
                         営業に特化したプロフェッショナルチームが、卸問屋・小売店・レストラン・リカーショップと連携し、米国市場での「売れる仕組み」を構築します。
                     </p>
-                    <div className="flex gap-4">
-                        {/* Dummy social links */}
-                        <div className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground transition-colors cursor-pointer">
-                            IN
-                        </div>
-                        <div className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground transition-colors cursor-pointer">
-                            X
-                        </div>
-                    </div>
+
                 </div>
 
 
