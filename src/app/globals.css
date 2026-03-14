@@ -67,3 +67,14 @@ body {
   margin-inline: auto;
   padding-inline: 1.5rem;
 }
+
+@utility animate-carousel {
+  animation: carousel 30s linear infinite;
+}
+
+@keyframes carousel {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-50% - 1.5rem)); }
+}
+
+

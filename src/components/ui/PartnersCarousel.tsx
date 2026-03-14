@@ -1,9 +1,6 @@
 "use client";
 
-import React, { useCallback } from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React from 'react';
 
 const partners = [
     { name: "Calbee", logoUrl: "/logos/Calbee%20-%20Logo.png" },
@@ -14,58 +11,30 @@ const partners = [
 ];
 
 export function PartnersCarousel() {
-    const [emblaRef, emblaApi] = useEmblaCarousel(
-        { loop: true, align: "start" },
-        [Autoplay({ delay: 3000, stopOnInteraction: true })]
-    );
-
-    const scrollPrev = useCallback(() => {
-        if (emblaApi) emblaApi.scrollPrev();
-    }, [emblaApi]);
-
-    const scrollNext = useCallback(() => {
-        if (emblaApi) emblaApi.scrollNext();
-    }, [emblaApi]);
-
     return (
-        <div className="relative max-w-6xl mx-auto px-12">
-            {/* Viewport */}
-            <div className="overflow-hidden" ref={emblaRef}>
-                <div className="flex touch-pan-y" style={{ backfaceVisibility: 'hidden' }}>
-                    {partners.map((partner, index) => (
-                        <div
-                            className="flex-[0_0_50%] md:flex-[0_0_33.333%] lg:flex-[0_0_20%] min-w-0 pl-4 py-4"
-                            key={index}
-                        >
-                            <div className="relative h-12 md:h-16 w-full flex items-center justify-center cursor-pointer group">
-                                {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img
-                                    src={partner.logoUrl}
-                                    alt={`${partner.name} logo`}
-                                    className="max-w-[120px] max-h-full object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
-                                    loading="lazy"
-                                />
-                            </div>
+        <div className="relative w-full overflow-hidden mt-8 py-4">
+            {/* Gradient Mask for fading edges */}
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-16 md:w-32 bg-gradient-to-r from-background to-transparent z-10" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-16 md:w-32 bg-gradient-to-l from-background to-transparent z-10" />
+            
+            <div className="flex w-fit items-center animate-carousel hover:[animation-play-state:paused]">
+                {/* Render the list twice for seamless looping */}
+                {[...partners, ...partners].map((partner, index) => (
+                    <div 
+                        key={`${partner.name}-${index}`} 
+                        className="flex-none px-6 md:px-12 w-48 md:w-64 flex justify-center group cursor-pointer"
+                    >
+                        <div className="h-24 md:h-32 flex items-center justify-center p-4 bg-white/50 backdrop-blur-sm rounded-xl border border-gray-100/50 hover:bg-white hover:shadow-sm transition-all duration-300 w-full">
+                            <img
+                                src={partner.logoUrl}
+                                alt={`${partner.name} logo`}
+                                className="max-w-[100px] md:max-w-[140px] max-h-full object-contain grayscale opacity-60 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
+                                loading="lazy"
+                            />
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
-
-            {/* Navigation Buttons */}
-            <button
-                className="absolute left-0 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center rounded-full bg-background border border-border shadow-sm text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-colors z-10"
-                onClick={scrollPrev}
-                aria-label="Previous logos"
-            >
-                <ChevronLeft className="w-5 h-5" />
-            </button>
-            <button
-                className="absolute right-0 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center rounded-full bg-background border border-border shadow-sm text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-colors z-10"
-                onClick={scrollNext}
-                aria-label="Next logos"
-            >
-                <ChevronRight className="w-5 h-5" />
-            </button>
         </div>
     );
 }
