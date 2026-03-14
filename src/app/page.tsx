@@ -52,14 +52,10 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-balance max-w-4xl">
               {t('home.hero.title')}
             </h1>
-            <p className="text-lg md:text-xl text-neutral-200 mb-10 max-w-2xl text-balance font-medium leading-relaxed">
+            <p className="text-lg md:text-xl text-neutral-200 mb-0 max-w-2xl text-balance font-medium leading-relaxed">
               {t('home.hero.subtitle')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-              <Button asChild size="lg" className="text-base h-12 md:h-14 px-8 bg-white text-black hover:bg-neutral-200">
-                <Link href="/contact">{t('home.hero.cta')}</Link>
-              </Button>
-            </div>
+          
           </div>
         </section>
 
