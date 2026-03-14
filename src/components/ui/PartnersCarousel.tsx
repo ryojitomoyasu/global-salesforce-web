@@ -30,17 +30,11 @@ export function PartnersCarousel() {
 
                 .partner-item {
                     flex: none;
-                    width: 12rem;
-                    height: 6rem;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    padding: 1rem;
-                    margin: 0 1.5rem;
-                    background-color: rgba(255, 255, 255, 0.5);
-                    backdrop-filter: blur(4px);
-                    border: 1px solid rgba(243, 244, 246, 0.5);
-                    border-radius: 0.75rem;
+                    padding: 0.5rem;
+                    margin: 0 2rem;
                     transition: all 0.3s ease;
                     cursor: pointer;
                 }
@@ -54,8 +48,7 @@ export function PartnersCarousel() {
                 }
 
                 .partner-item:hover {
-                    background-color: rgba(255, 255, 255, 1);
-                    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+                    /* no background on hover */
                 }
 
                 .partner-logo-img {
