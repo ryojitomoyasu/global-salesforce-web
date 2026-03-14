@@ -4,12 +4,14 @@ import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const { lang, setLang, t } = useLanguage();
 
     const navLinks = [
-        { name: "About", href: "/about" },
+        { name: t('nav.about'), href: "/about" },
     ];
 
     return (
@@ -39,9 +41,23 @@ export function Header() {
 
                 {/* Desktop Actions */}
                 <div className="hidden md:flex items-center space-x-4">
-                    <div className="text-sm font-semibold text-muted-foreground cursor-pointer hover:text-foreground transition-colors">JA / EN</div>
+                    <div className="flex items-center text-sm font-semibold">
+                        <button
+                            onClick={() => setLang('ja')}
+                            className={`px-1 transition-colors ${lang === 'ja' ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'}`}
+                        >
+                            JA
+                        </button>
+                        <span className="text-muted-foreground mx-0.5">/</span>
+                        <button
+                            onClick={() => setLang('en')}
+                            className={`px-1 transition-colors ${lang === 'en' ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'}`}
+                        >
+                            EN
+                        </button>
+                    </div>
                     <Button asChild size="sm">
-                        <Link href="/contact">Contact Us</Link>
+                        <Link href="/contact">{t('nav.contactUs')}</Link>
                     </Button>
                 </div>
 
@@ -69,9 +85,23 @@ export function Header() {
                         </Link>
                     ))}
                     <div className="w-full pt-4 border-t border-border flex flex-col space-y-4">
-                        <div className="text-sm font-semibold text-muted-foreground cursor-pointer">Language: JA / EN</div>
+                        <div className="flex items-center text-sm font-semibold gap-2">
+                            <span className="text-muted-foreground">Language:</span>
+                            <button
+                                onClick={() => setLang('ja')}
+                                className={`px-2 py-1 rounded transition-colors ${lang === 'ja' ? 'bg-foreground text-background' : 'text-muted-foreground hover:text-foreground'}`}
+                            >
+                                JA
+                            </button>
+                            <button
+                                onClick={() => setLang('en')}
+                                className={`px-2 py-1 rounded transition-colors ${lang === 'en' ? 'bg-foreground text-background' : 'text-muted-foreground hover:text-foreground'}`}
+                            >
+                                EN
+                            </button>
+                        </div>
                         <Button asChild className="w-full">
-                            <Link href="/contact" onClick={() => setIsOpen(false)}>Contact Us</Link>
+                            <Link href="/contact" onClick={() => setIsOpen(false)}>{t('nav.contactUs')}</Link>
                         </Button>
                     </div>
                 </div>
