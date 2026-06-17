@@ -18,13 +18,13 @@ export function Header() {
     return (
         <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur-sm">
             <div className="container-custom flex h-16 items-center justify-between">
-                <Link href="/" className="flex items-center gap-2 shrink-0">
-                    <span className="text-xl font-black tracking-tight text-foreground">
-                        一<span className="text-accent">旗</span>会
-                    </span>
-                    <span className="hidden sm:block text-xs font-medium text-muted-foreground tracking-widest uppercase pt-0.5">
-                        Hitohatakai
-                    </span>
+                <Link href="/" className="flex items-center space-x-2">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                        src="/logo.png?v=1"
+                        alt="Global Sales Force"
+                        className="h-10 md:h-12 w-auto object-contain"
+                    />
                 </Link>
 
                 {/* Desktop Nav */}
