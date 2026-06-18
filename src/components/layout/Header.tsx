@@ -65,7 +65,7 @@ export function Header() {
                         </button>
                     </div>
                     <Button asChild size="sm">
-                        <Link href="/contact">{t('nav.contact')}</Link>
+                        <Link href="/contact">Contact</Link>
                     </Button>
                 </div>
 
@@ -118,7 +118,7 @@ export function Header() {
                             </button>
                         </div>
                         <Button asChild className="w-full">
-                            <Link href="/contact" onClick={() => setIsOpen(false)}>{t('nav.contact')}</Link>
+                            <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
                         </Button>
                     </div>
                 </div>
