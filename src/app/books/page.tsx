@@ -24,10 +24,10 @@ export default function BooksPage() {
                         <p className="text-sm font-semibold text-muted-foreground uppercase tracking-widest mb-4">
                             Global Sales Force
                         </p>
-                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                        <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
                             ともに学び、ともに高め合う
                         </h1>
-                        <p className="text-xl text-muted-foreground leading-relaxed">
+                        <p className="text-base text-muted-foreground leading-relaxed">
                             ここで紹介するのは、私自身が読んで心を動かされ、「仲間にも読んでほしい」と思った本です。一人ひとりが学び、視野を広げていけば、チーム全体のレベルは自然と上がっていく。その積み重ねが、より良い会社・より強い組織をつくると信じてこのページを作成しました。
                         </p>
                         <p className="text-xs text-muted-foreground mt-4 p-3 bg-muted rounded-md">
