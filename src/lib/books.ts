@@ -39,7 +39,7 @@ export const books: Book[] = [
         category: "経営者",
         description: "ソフトバンクグループを率いる孫正義の壮大なビジョンと、300年続く企業を作るという野望に迫るノンフィクション。",
         comment: "スケールの大きさに圧倒されます。経営者として何を目指すべきかを考えさせられる一冊です。",
-        coverUrl: "https://m.media-amazon.com/images/I/71Lh3F3LNYL._SY466_.jpg",
+        coverUrl: "/books/son-masayoshi-300.jpg",
         affiliateUrl: "https://amzn.to/4weoF6z",
     },
 ];
