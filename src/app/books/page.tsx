@@ -25,10 +25,10 @@ export default function BooksPage() {
                             Global Sales Force
                         </p>
                         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-                            おすすめの本
+                            ともに学び、ともに高め合う
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed">
-                            米国市場への進出、営業、マーケティング、英語学習など——実際に読んで役に立った本をジャンル別にご紹介します。
+                            ここで紹介するのは、私自身が読んで心を動かされ、「仲間にも読んでほしい」と思った本です。一人ひとりが学び、視野を広げていけば、チーム全体のレベルは自然と上がっていく。その積み重ねが、より良い会社・より強い組織をつくると信じてこのページを作成しました。
                         </p>
                         <p className="text-xs text-muted-foreground mt-4 p-3 bg-muted rounded-md">
                             ※ 本ページのリンクはAmazonアソシエイトプログラムを利用しています。リンクを経由してご購入いただいた収益は、日本の食文化や商品をアメリカに広げる活動のために使わせていただきます。
