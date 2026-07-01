@@ -1,0 +1,104 @@
+﻿
+> temp-app@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.3s
+  Running TypeScript ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Failed    
+ to compile.:Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+
+./src/app/page.tsx:19
+:97
+Type error: Object 
+literal may only 
+specify known 
+properties, but 
+'WebkitMixBlendMode' 
+does not exist in 
+type 
+'Properties<string | 
+number, string & 
+{}>'. Did you mean 
+to write 
+'mixBlendMode'?
+
+[0m [90m 17 |[39m 
+        [33m<[39m[
+33msection[39m class
+Name[33m=[39m[32m"
+w-full bg-white 
+relative flex 
+justify-center 
+items-center 
+overflow-hidden pt-0 
+md:pt-12"[39m[33m>
+[39m
+ [90m 18 |[39m     
+      [33m<[39m[33
+mdiv[39m className[
+33m=[39m[32m"relati
+ve w-full flex 
+justify-center"[39m 
+style[33m=[39m{{ 
+isolation[33m:[39m 
+[32m'isolate'[39m 
+}}[33m>[39m
+[31m[1m>[22m[39m
+[90m 19 |[39m       
+      [33m<[39m[33
+mdiv[39m className[
+33m=[39m[32m"w-full
+ md:w-[85%] 
+lg:w-[80%] max-w-7xl 
+mix-blend-multiply"[
+39m 
+style[33m=[39m{{ [
+33mWebkitMixBlendMode
+[39m[33m:[39m 
+[32m'multiply'[39m 
+}}[33m>[39m
+ [90m    |[39m     
+                     
+                     
+                     
+                     
+        
+[31m[1m^[22m[39m
+ [90m 20 |[39m     
+          {[90m/* es
+lint-disable-next-lin
+e @next/next/no-img-e
+lement */[39m}
+ [90m 21 |[39m     
+          [33m<[39m
+[33mimg[39m
+ [90m 22 |[39m     
+            src[33m=
+[39m[32m"/skyline.j
+pg?v=12"[39m[0m
+Next.js build worker 
+exited with code: 1 
+and signal: null

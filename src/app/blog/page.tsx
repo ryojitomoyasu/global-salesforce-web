@@ -4,9 +4,10 @@ import { Footer } from "@/components/layout/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
 import { ArrowRight, Calendar, Tag } from "lucide-react";
+import { ReportCarousel } from "@/components/reports/ReportCarousel";
 
 export const metadata: Metadata = {
-    title: "Blog | Global Sales Force",
+    title: "Report/Blog | Global Sales Force",
     description: "米国食品市場への進出に関するノウハウ、現場からの最新情報、成功事例をお届けします。",
 };
 
@@ -23,10 +24,17 @@ export default function BlogPage() {
                         <p className="text-sm font-semibold text-muted-foreground uppercase tracking-widest mb-4">
                             Global Sales Force
                         </p>
-                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Blog</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Report/Blog</h1>
                         <p className="text-xl text-muted-foreground leading-relaxed">
                             米国食品市場への進出に関するノウハウ、現場からの最新情報、成功事例をお届けします。
                         </p>
+                    </div>
+
+                    {/* Industry Reports Section */}
+                    <ReportCarousel />
+
+                    <div className="mb-8 mt-12">
+                        <h2 className="text-2xl font-bold tracking-tight border-b border-border pb-4">Blog Articles</h2>
                     </div>
 
                     {/* Post Grid */}
