@@ -42,4 +42,15 @@ export const books: Book[] = [
         coverUrl: "/books/son-masayoshi-300.jpg",
         affiliateUrl: "https://amzn.to/4weoF6z",
     },
+    {
+        id: "2",
+        title: "孫正義　300年王国への野望（下）",
+        author: "杉本貴司",
+        publisher: "日経ビジネス人文庫",
+        year: "2024",
+        category: "経営者",
+        description: "ソフトバンクグループを率いる孫正義の壮大なビジョンと、300年続く企業を作るという野望に迫る傑作ノンフィクションの完結編。",
+        comment: "上巻に引き続き、孫正義氏の果てしない野望と執念に圧倒される内容でした。幾多の困難を乗り越えながらも、常に未来を見据えて布石を打っていく姿勢は、経営において極めて重要な視座を与えてくれます。変化の激しい時代において、いかに大局観を持ち、リスクを取って挑戦し続けるべきか、改めて深く考えさせられる一冊です。",
+        affiliateUrl: "https://amzn.to/4veu909",
+    },
 ];
