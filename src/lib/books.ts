@@ -54,4 +54,14 @@ export const books: Book[] = [
         coverUrl: "/books/son-masayoshi-300-2.jpg",
         affiliateUrl: "https://amzn.to/4veu909",
     },
+    {
+        id: "3",
+        title: "明鏡",
+        author: "イケハヤ",
+        category: "ビジネス・マーケティング",
+        description: "「マーケティングはこの一冊でいいです。」と言い切る著者による、これからのマーケティングの集大成。",
+        comment: "僕がバイブコーディングを知るきっかけになり、使えるようになったのはこの筆者イケハヤさんのラジオを聞いてたおかげです。この人のマーケティングは超一流と思っていたところ名境という本を出版されました。「マーケティングはこの一冊でいいです。」という著者の一言でこの本を購入することにしました。購入したばかりなので、感想を書く前に共有しておきます。",
+        coverUrl: "/books/meikyo.png",
+        affiliateUrl: "https://brmk.io/npZk2z",
+    },
 ];
