@@ -31,14 +31,9 @@ export default function Home() {
             <div className="w-full md:w-[85%] lg:w-[80%] max-w-7xl mix-blend-multiply">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/skyline.jpg?v=12"
-                alt="Global Sales Force New York Skyline"
+                src="/hero-illustration.jpg"
+                alt="Global Sales Force Homepage Illustration"
                 className="w-[115%] max-w-none -ml-[7.5%] -mt-4 md:w-full md:max-w-full md:ml-0 md:mt-0 h-auto object-contain"
-                style={{
-                  filter: "brightness(1.5) contrast(1.8) grayscale(0.2)",
-                  WebkitFilter: "brightness(1.5) contrast(1.8) grayscale(0.2)",
-                  transform: "translateZ(0)"
-                }}
               />
             </div>
           </div>
