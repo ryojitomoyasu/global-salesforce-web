@@ -34,6 +34,7 @@ export default function Home() {
                 src="/hero-illustration.jpg"
                 alt="Global Sales Force Homepage Illustration"
                 className="w-[115%] max-w-none -ml-[7.5%] -mt-4 md:w-full md:max-w-full md:ml-0 md:mt-0 h-auto object-contain"
+                style={{ filter: "brightness(1.08) contrast(1.2)" }}
               />
             </div>
           </div>
