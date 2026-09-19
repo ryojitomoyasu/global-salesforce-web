@@ -31,8 +31,8 @@ export default function AboutPage() {
                         <div className="text-lg text-muted-foreground leading-loose space-y-6">
                             <p>{t('about.p1')}</p>
                             <p>{t('about.p2')}</p>
-                            <p className="text-2xl font-bold text-foreground">{t('about.highlight')}</p>
                             <p>{t('about.p3')}</p>
+                            <p>{t('about.p4')}</p>
                         </div>
                     </div>
 
