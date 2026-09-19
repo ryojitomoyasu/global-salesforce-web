@@ -35,38 +35,21 @@ export default function GalleryPage() {
 
                     {/* Photo Gallery Section */}
                     <section className="mb-32">
-                        <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-12">Brands & Partners Gallery</h2>
+                        <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-8">Brands & Partners Gallery</h2>
                         
-                        {(() => {
-                            const groupedPhotos = photos.reduce((acc, photo) => {
-                                const match = photo.match(/^([a-zA-Z\s]+)/);
-                                const brand = match ? match[1].trim() : "Other";
-                                if (!acc[brand]) acc[brand] = [];
-                                acc[brand].push(photo);
-                                return acc;
-                            }, {} as Record<string, string[]>);
-
-                            return Object.entries(groupedPhotos).map(([brand, brandPhotos]) => (
-                                <div key={brand} className="mb-16 last:mb-0">
-                                    <h3 className="text-xl md:text-2xl font-medium tracking-wide mb-6 border-b border-border/50 pb-3 text-foreground/80">
-                                        {brand}
-                                    </h3>
-                                    <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-6 space-y-6">
-                                        {brandPhotos.map((photo, index) => (
-                                            <div key={index} className="break-inside-avoid relative group rounded-xl overflow-hidden bg-muted shadow-sm hover:shadow-md transition-all duration-300">
-                                                {/* eslint-disable-next-line @next/next/no-img-element */}
-                                                <img
-                                                    src={`/gallery/${encodeURIComponent(photo)}`}
-                                                    alt={`${brand} image ${index + 1}`}
-                                                    className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
-                                                    loading="lazy"
-                                                />
-                                            </div>
-                                        ))}
-                                    </div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                            {photos.map((photo, index) => (
+                                <div key={index} className="relative group rounded-xl overflow-hidden bg-muted shadow-sm hover:shadow-md transition-all duration-300 aspect-[4/3]">
+                                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                                    <img
+                                        src={`/gallery/${encodeURIComponent(photo)}`}
+                                        alt={`Gallery image ${index + 1}`}
+                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                        loading="lazy"
+                                    />
                                 </div>
-                            ));
-                        })()}
+                            ))}
+                        </div>
                     </section>
 
                     {/* Books Section */}
