@@ -1,0 +1,200 @@
+{
+  "vol": "11",
+  "date": "2026.09.04",
+  "week": "Aug 29 – Sep 4, 2026",
+  "this_week": [
+    "食料品の消費税1%へ、27年4月から2年間",
+    "9月の値上げ4,500品目超で年内最多",
+    "Kラーメン上半期輸出+28%、9.3億ドル",
+    "現製茶飲6社の上半期収入367.8億元"
+  ],
+  "na": [
+    {
+      "region": "na",
+      "art": "trade",
+      "eyebrow": "TRADE ・ 通商",
+      "ja": "IEEPA関税の還付処理が本格化 ─ 7月末で1,286億ドル分が受付済み",
+      "en": "IEEPA tariff refunds move forward: $128.7bn accepted by end of July",
+      "ja_body": "最高裁が2月20日にIEEPA関税を6対3で無効とし、還付手続きが進んでいる。CBPによると7月31日時点で1,769万件の輸入申告が関税なしで清算され、約1,286億ドルが受付済み。全申告の約82%で電子還付が可能になった。",
+      "en_body": "After the Supreme Court struck down the IEEPA tariffs 6-3 on February 20, the refund process is moving. CBP says 17.69 million entries had been liquidated without the duties as of July 31, with about $128.7 billion accepted for processing. Roughly 82% of entries can now be refunded electronically.",
+      "src": "出典：CBP／Holland & Knight／Flexport"
+    },
+    {
+      "region": "na",
+      "eyebrow": "REGULATION ・ 規制",
+      "ja": "FDAの26年重点課題 ─ 前面表示・合成着色料・州連携の3本柱",
+      "en": "FDA's 2026 priorities: front-of-pack labeling, dyes, state partnerships",
+      "ja_body": "FDAは26年の重点課題に、前面栄養表示（FOP）の最終規則に向けた意見整理、石油由来合成着色料の段階的廃止、ネット通販向け表示ガイダンス案を挙げた。州と検査を分担する「BRIDGE」構想も始動する。",
+      "en_body": "The FDA's 2026 deliverables center on finalizing front-of-package nutrition labeling after tens of thousands of comments, phasing out petroleum-based synthetic dyes, and draft guidance on labeling for online grocery. The BRIDGE initiative will shift routine inspections to state partners.",
+      "src": "出典：FDA Human Foods Program／Covington／Packaging Digest"
+    },
+    {
+      "region": "na",
+      "eyebrow": "PRICES ・ 物価",
+      "ja": "家庭内食品CPIは前年比+2.7% ─ 通年予測は+2.5%と平年並みに",
+      "en": "Grocery CPI up 2.7% year on year; full-year forecast eases to 2.5%",
+      "ja_body": "USDAによると7月の家庭内食品CPIは前月から横ばい、前年同月比+2.7%。26年通年の予測は+2.5%で、過去20年平均の+2.6%を下回る。関税の転嫁と小売の値下げ競争が相殺し、伸びは落ち着いている。",
+      "en_body": "USDA reports the food-at-home CPI was flat from June to July and 2.7% above July 2025. The full-year 2026 forecast is 2.5%, just under the 20-year average of 2.6%. Tariff pass-through and retailer price cuts are offsetting each other, keeping grocery inflation near normal.",
+      "src": "出典：USDA ERS Food Price Outlook"
+    },
+    {
+      "region": "na",
+      "eyebrow": "M&A ・ 再編",
+      "ja": "CPGのM&A金額が前年比2倍超 ─ 大型3件だけで約1,200億ドル",
+      "en": "CPG deal value more than doubles; three megadeals near $120bn",
+      "ja_body": "26年第1四半期のCPG案件額は前年同期の2倍超となり、4年続いた減少が反転した。Kimberly-Clark/Kenvue、McCormick/Unilever、KDP/JDE Peet'sの3件で約1,200億ドル。高付加価値化と機能性への関心が買収を後押しする。",
+      "en_body": "CPG deal value in the first quarter of 2026 more than doubled year on year, reversing a four-year decline. Kimberly-Clark/Kenvue, McCormick/Unilever and KDP/JDE Peet's alone accounted for about $120 billion. Premiumization and appetite for functional brands are driving the buying.",
+      "src": "出典：The Food Institute／FoodNavigator／Skadden"
+    },
+    {
+      "region": "na",
+      "eyebrow": "PRODUCT ・ 新商品",
+      "ja": "9月の新商品は「たんぱく質×食物繊維」 ─ 牛脂と発酵乳も定番へ",
+      "en": "September launches lean on protein plus fiber; tallow and cultured dairy go mainstream",
+      "ja_body": "9月の米国新商品はたんぱく質強化が軸。Chef Boyardeeがプロテイン缶パスタ、Welch'sが冷凍PB&Jを投入した。Whole Foodsは26年の1位トレンドに牛脂を挙げ、カッテージチーズなど発酵乳も伸びる。",
+      "en_body": "US launches this September lean on added protein: Chef Boyardee brought out protein canned pasta and Welch's put PB&J in the freezer aisle. Whole Foods named beef tallow its top 2026 trend, while cultured dairy such as cottage cheese keeps expanding beyond breakfast.",
+      "src": "出典：Food Processing／Food Business News／Whole Foods Market"
+    }
+  ],
+  "jp": [
+    {
+      "region": "jp",
+      "art": "summer",
+      "eyebrow": "POLICY ・ 税制",
+      "ja": "食料品の消費税を1%へ ─ 27年4月から2年間、基本方針を閣議決定",
+      "en": "Food consumption tax to be cut to 1% for two years from April 2027",
+      "ja_body": "政府は8月5日の臨時閣議で、軽減税率対象の飲食料品の消費税率を27年4月1日から2年間1%とする基本方針を決定した。残る1%は給付付き税額控除で相殺し実質ゼロを目指す。9月に税制改正大綱、秋の臨時国会に関連法案を提出する見通しで、成立すれば89年の導入以来初の消費税減税となる。",
+      "en_body": "At an extraordinary cabinet meeting on August 5 the government adopted a basic policy cutting the consumption tax on food and drink under the reduced rate to 1% for two years from April 1, 2027. The remaining 1% would be offset by a refundable tax credit, aiming at an effective zero. A tax reform outline is due in September and a bill in the autumn Diet session; it would be the first cut since 1989.",
+      "src": "出典：NHK／内閣府／報道各社"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "PRICES ・ 値上げ",
+      "ja": "9月の値上げは4,500品目超 ─ 年内最多、調味料が最大の山に",
+      "en": "September repricing tops 4,500 items, the year's peak, led by seasonings",
+      "ja_body": "9月の飲食料品値上げは4,500品目を超え年内最多となった。最多は調味料の1,959品目で、マヨネーズ・ドレッシング・しょうゆ・つゆが並ぶ。加工食品1,848品目、酒類飲料466品目、乳製品278品目、菓子272品目と続き、冷凍食品では最大2割の引き上げも見られる。",
+      "en_body": "More than 4,500 food and beverage items were repriced in September, the highest month of the year. Seasonings led with 1,959 items, including mayonnaise, dressings, soy sauce and noodle broth, followed by processed foods at 1,848, alcohol and drinks at 466, dairy at 278 and confectionery at 272. Some frozen items rose as much as 20%.",
+      "src": "出典：帝国データバンク／報道各社"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "EXPORT ・ 輸出",
+      "ja": "上半期の農林水産物・食品輸出8,977億円 ─ 2年連続で過去最高",
+      "en": "Farm and food exports hit ¥897.7bn in H1, a record for a second year",
+      "ja_body": "26年1〜6月の農林水産物・食品の輸出額は8,977億円、前年同期比+10.9%で上半期として2年連続の過去最高を更新した。品目別では緑茶が220億円増の482億円で首位、次いでブリ、和牛は4位。水産物は+19.5%と伸び、上位10カ国・地域すべてが前年を上回った。",
+      "en_body": "Japan's farm, forestry, fishery and food exports reached 897.7 billion yen from January to June, up 10.9% year on year and a record first half for the second straight year. Green tea led by item at 48.2 billion yen, up 22.0 billion, followed by yellowtail, with wagyu fourth. Marine products rose 19.5% and all top ten destinations grew.",
+      "src": "出典：農林水産省／JETRO／時事通信"
+    }
+  ],
+  "kr": [
+    {
+      "region": "kr",
+      "eyebrow": "EXPORT ・ 輸出",
+      "ja": "Kラーメンの上半期輸出が+28% ─ 9億3,539万ドルで過去最高",
+      "en": "K-ramyun exports up 28% in H1 to a record $935.4 million",
+      "ja_body": "韓国農林畜産食品部によると、26年上半期のラーメン輸出額は9億3,539万ドルで前年同期比+28%と過去最高。25年通年は15億2,000万ドルで、単品として初めて15億ドルを超えた。海外売上比率が8割の三養食品は最高業績が見込まれ、農心・オットギは緩やかな伸びにとどまる。",
+      "en_body": "The agriculture ministry reports ramyun exports of $935.4 million in the first half of 2026, up 28% year on year and an all-time high. Full-year 2025 came to $1.52 billion, the first single food item to pass $1.5 billion. Samyang Foods, which earns 80% of sales abroad, is expected to post record results, while Nongshim and Ottogi grow more slowly.",
+      "src": "出典：韓国農林畜産食品部／KOREA WAVE／Korea Herald"
+    },
+    {
+      "region": "kr",
+      "eyebrow": "MARKET ・ 市場",
+      "ja": "K-Food+輸出は中東が牽引 ─ 26年は160億ドルを目標に",
+      "en": "Middle East leads K-Food+ growth; 2026 target set at $16 billion",
+      "ja_body": "26年上半期のK-Food+輸出は62.1億ドルで前年同期比+5.2%。伸び率は中東GCCが+25.2%で最も高く、中南米+19.5%、欧州+17.9%、北米+11.0%、中華圏+9.5%と続く。25年通年は136.2億ドルで9年連続の増加、26年は160億ドルを目標に掲げる。",
+      "en_body": "K-Food+ exports came to $6.21 billion in the first half of 2026, up 5.2% year on year. Growth was fastest in the Middle East GCC at 25.2%, followed by Latin America at 19.5%, Europe at 17.9%, North America at 11.0% and Greater China at 9.5%. Full-year 2025 was $13.62 billion, a ninth straight rise, and the 2026 target is $16 billion.",
+      "src": "出典：韓国農林畜産食品部／Korea.net／Asia Business Daily"
+    }
+  ],
+  "cn": [
+    {
+      "region": "cn",
+      "eyebrow": "RETAIL ・ 小売",
+      "ja": "現製茶飲6社の上半期収入367.8億元 ─ 「存量競争」の段階へ",
+      "en": "Six listed tea chains post RMB36.8bn in H1 as growth turns to efficiency",
+      "ja_body": "上場する現製茶飲6社の26年上半期合計収入は約367.8億元。6万店超の蜜雪集団が152.2億元で首位、古茗が74.7億元で霸王茶姫の69.6億元を上回った。業界は出店と新商品の量的拡大が効きにくい「存量競争」に入り、供給網の統合と全チャネル運営の効率が競争軸になっている。",
+      "en_body": "Six listed made-to-order tea chains booked about 36.78 billion yuan in combined first-half revenue. Mixue, with more than 60,000 stores, led at 15.22 billion, while Guming's 7.47 billion overtook Chagee's 6.96 billion. The sector has entered a stock-competition phase in which store openings and new drinks no longer move the needle, and supply-chain integration and omnichannel efficiency decide the winners.",
+      "src": "出典：時代周報／前瞻産業研究院／各社開示"
+    },
+    {
+      "region": "cn",
+      "eyebrow": "HEALTH ・ 機能性",
+      "ja": "機能性食品市場は4,366億元へ ─ 炭酸新商品の29%が健康訴求",
+      "en": "Functional foods head for RMB436.6bn; 29% of new carbonates carry a health claim",
+      "ja_body": "中国の健康機能食品市場は21年の3,289億元から26年に4,366億元へ、年平均5.8%で拡大する見通し。炭酸飲料の新商品は29%が何らかの健康訴求を持ち、食物繊維やビタミン入りが定着した。消費者の56%がたんぱく質摂取を増やす一方で供給が追いつかず、成長は下位都市が牽引する。",
+      "en_body": "China's health functional food market is projected to grow from 328.9 billion yuan in 2021 to 436.6 billion by 2026, a 5.8% annual pace. Some 29% of new carbonated drink launches now carry at least one health claim, with fiber and vitamins mainstream. While 56% of consumers say they are adding protein, supply lags that demand, and lower-tier cities drive the growth.",
+      "src": "出典：ChemLinked／Innova Market Insights"
+    }
+  ],
+  "trends": [
+    {
+      "ja": "たんぱく質×食物繊維",
+      "en": "PROTEIN + FIBER",
+      "ic": "cart"
+    },
+    {
+      "ja": "牛脂（ビーフタロー）",
+      "en": "BEEF TALLOW",
+      "ic": "chili"
+    },
+    {
+      "ja": "発酵乳・カッテージ",
+      "en": "CULTURED DAIRY",
+      "ic": "latte"
+    },
+    {
+      "ja": "抹茶",
+      "en": "MATCHA",
+      "ic": "matcha_m"
+    },
+    {
+      "ja": "世界の味の融合",
+      "en": "GLOBAL FUSION",
+      "ic": "noodlebowl"
+    }
+  ],
+  "products": [
+    {
+      "ja": "プロテイン缶パスタ",
+      "en": "PROTEIN CANNED PASTA",
+      "ic": "cart",
+      "region": "na",
+      "tag": "US ・ 9月投入"
+    },
+    {
+      "ja": "冷凍PB&J",
+      "en": "FROZEN PB&J",
+      "ic": "ube",
+      "region": "na",
+      "tag": "US ・ ウォルマート先行"
+    },
+    {
+      "ja": "お月見スイーツ",
+      "en": "TSUKIMI DESSERTS",
+      "ic": "onigiri",
+      "region": "jp",
+      "tag": "JP ・ 9月コンビニ一斉"
+    },
+    {
+      "ja": "緑茶・抹茶",
+      "en": "GREEN TEA & MATCHA",
+      "ic": "matcha_m",
+      "region": "jp",
+      "tag": "JP ・ 輸出482億円で1位"
+    },
+    {
+      "ja": "Kラーメン",
+      "en": "K-RAMYUN",
+      "ic": "noodlebowl",
+      "region": "kr",
+      "tag": "KR ・ 上半期+28%"
+    },
+    {
+      "ja": "現製茶飲",
+      "en": "MADE-TO-ORDER TEA",
+      "ic": "popsicle",
+      "region": "cn",
+      "tag": "CN ・ 6社368億元"
+    }
+  ]
+}

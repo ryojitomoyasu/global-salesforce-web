@@ -1,0 +1,200 @@
+{
+  "vol": "08",
+  "date": "2026.08.14",
+  "week": "Aug 7 – Aug 13, 2026",
+  "this_week": [
+    "FDAがGRAS通知を義務化へ、8月10日に規則案",
+    "超加工食品の連邦定義がOMBへ、ただし白書扱い",
+    "農心の4-6月営業益+47.6%、米中がけん引",
+    "猛暑でコメに高温障害、新米の品質に懸念"
+  ],
+  "na": [
+    {
+      "region": "na",
+      "art": "trade",
+      "eyebrow": "REGULATION ・ 規制",
+      "ja": "FDAがGRAS通知の義務化を提案 ─ 1958年以来の抜け穴を封鎖",
+      "en": "FDA moves to make GRAS notification mandatory",
+      "ja_body": "FDAは8月10日、添加物の安全性を企業が自分で認定できる「GRAS」制度の見直し案を公表した。任意だった届け出が義務になり、企業が黙って添加物を使い始められた1958年以来の運用が変わる。ただし発売前の承認制ではない。意見公募は12月9日まで。",
+      "en_body": "On August 10 the FDA proposed overhauling GRAS, the system that lets a company certify its own additive as safe. Notification becomes mandatory rather than voluntary, ending a route open since 1958 that let manufacturers start using a substance without telling anyone. It is still not premarket approval. Comments close December 9.",
+      "src": "出典：FDA／Federal Register／Morrison Foerster"
+    },
+    {
+      "region": "na",
+      "eyebrow": "BASICS ・ 基礎解説",
+      "ja": "そもそも「GRAS」とは ─ 添加物の自己申告ルール",
+      "en": "What is GRAS? The self-certification rule, explained",
+      "ja_body": "GRASは「一般に安全と認められる」の略。1958年の法改正で、塩や酢のように長年使われてきた物質はFDA審査を通さず使ってよいとされた。だが企業が自社で「安全」と判断すれば届け出も要らないため、FDAが把握していない添加物が千種類以上あるとの推計もある。",
+      "en_body": "GRAS stands for Generally Recognized As Safe. A 1958 amendment let substances with a long history of use, such as salt and vinegar, skip FDA review. But because a company can reach its own safety conclusion and file nothing, estimates put the number of additives the FDA has never seen at more than a thousand.",
+      "src": "出典：FDA／CSPI／NRDC"
+    },
+    {
+      "region": "na",
+      "eyebrow": "LABELING ・ 表示",
+      "ja": "超加工食品の連邦定義がOMBへ ─ ただし「白書」で拘束力なし",
+      "en": "UPF definition reaches OMB — but as a white paper, not a binding rule",
+      "ja_body": "HHS・FDA・USDAは8月3日、連邦政府として初の超加工食品（UPF）定義案をOMBの審査部門OIRAへ提出した。規則案ではなく白書のため、表示や配合を今すぐ縛る力はない。ただし政府が線引きを示せば、今後の前面表示ルールや企業の再配合の物差しになる。",
+      "en_body": "HHS, FDA and USDA sent the first federal definition of ultra-processed food to OIRA, the review office at OMB, on August 3. Filed as a white paper rather than a proposed rule, it binds no label or recipe today. But once the government draws the line, that line becomes the yardstick for the coming front-of-pack rule and for reformulation.",
+      "src": "出典：HHS／FDA／Food Safety Magazine"
+    },
+    {
+      "region": "na",
+      "eyebrow": "BASICS ・ 基礎解説",
+      "ja": "「超加工食品」ってなに ─ NOVA分類のいちばん上",
+      "en": "What counts as ultra-processed? The top tier of NOVA",
+      "ja_body": "ブラジルの研究者が提唱したNOVA分類は、食品を加工度で4段階に分ける。その最上位が超加工食品で、乳化剤・着色料・香料など家庭の台所にない材料を使い工業的に組み立てた食品を指す。米CDCによると米国人が摂るカロリーの55.0%、1〜18歳では61.9%がこれに当たる。",
+      "en_body": "NOVA, a scale proposed by Brazilian researchers, sorts food into four tiers by degree of processing. The top tier is ultra-processed: items built industrially from emulsifiers, colors and flavorings you would not keep in a home kitchen. CDC data put 55.0% of US calories in that tier, rising to 61.9% for ages 1–18.",
+      "src": "出典：NCHS Data Brief No.536／FAO"
+    },
+    {
+      "region": "na",
+      "eyebrow": "TREND ・ アジア食",
+      "ja": "アジア系食品が「エスニック棚」を卒業 ─ 成長は全体の約4倍",
+      "en": "Asian food graduates from the ethnic aisle, growing about 4x the category",
+      "ja_body": "米国のアジア系包装食品は包装食品全体の約4倍の速さで伸びている。醤油や即席麺に限られた売場は日韓タイ中印の専用セクションへ拡大。塩系スナックの伸長味ではマサラと韓国BBQが上位5位に入る。",
+      "en_body": "Retail sales of Asian packaged foods in the US are growing roughly four times faster than packaged food overall. Aisles once limited to soy sauce and instant ramen are now dedicated sections spanning Japanese, Korean, Thai, Chinese and Indian goods. Masala and Korean BBQ rank top-five among fastest-growing salty snack flavors.",
+      "src": "出典：CNBC／just-food／Circana"
+    }
+  ],
+  "jp": [
+    {
+      "region": "jp",
+      "art": "summer",
+      "eyebrow": "HARVEST ・ 猛暑",
+      "ja": "コメに高温障害 ─ 早期収穫進むも「新米の方が安くなる」懸念",
+      "en": "Heat damage hits the rice crop as early harvest begins",
+      "ja_body": "記録的猛暑を受け、三重県木曽岬町では8月10日過ぎに例年より早くコメの収穫が始まった。7月の高温障害で一等米比率の低下が懸念される。倉庫には古米が積み上がり、産地からは「新米の方が値段が下がる可能性がある」との声も出ている。",
+      "en_body": "After a record heatwave, rice harvesting began just after August 10 in Kisosaki, Mie Prefecture, earlier than usual. July's extreme heat has raised concern over quality damage and a lower share of top-grade grain. With warehouses still holding carryover stock, growers warn the new crop could fetch lower prices than the old.",
+      "src": "出典：中京テレビ／livedoorニュース"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "PRICES ・ 値上げ",
+      "ja": "8月値上げ2,311品目、加工食品は前年の約7倍 ─ 9月は4,531品目",
+      "en": "2,311 items repriced in August; September brings 4,531",
+      "ja_body": "帝国データバンクによると8月の飲食料品値上げは2,311品目で前年比8割増。最多は加工食品1,419品目（前年188品目の約7倍）、次いで調味料589、原材料276。森永乳業は8月1日出荷分から47品を3.1〜11.4%改定。9月は4,531品目と約3年ぶりの規模になる。",
+      "en_body": "Teikoku Databank counts 2,311 food and drink items repriced in August, up about 80% year on year. Processed foods lead at 1,419 items, some seven times last year's 188, followed by seasonings at 589 and raw materials at 276. Morinaga Milk revised 47 items by 3.1–11.4% from August 1 shipments. September brings 4,531 items, the most in roughly three years.",
+      "src": "出典：帝国データバンク／マイナビニュース／森永乳業"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "PRODUCT ・ 新商品",
+      "ja": "コンビニは「雰囲気を楽しむ」路線へ ─ 8月は濃厚チョコと映画コラボ",
+      "en": "Convenience stores lean into mood: rich chocolate and film tie-ins",
+      "ja_body": "日本食糧新聞は8月のテーマに、代替ではなく「○○風」で雰囲気を楽しむ食品と拡大するコラボ商戦を挙げた。真夏に濃厚チョコを投じるローソン、映画コラボのファミマ、スパイス系のセブンと差別化が進む。レモンもこ（216円・8月11日）など和素材スイーツも定番化した。",
+      "en_body": "Nihon Shokuryo Shimbun names two August themes: foods that evoke a style rather than substitute for it, and a widening wave of collaborations. Lawson is pushing rich Premium Chocolat into midsummer, FamilyMart is running film tie-ins and Seven-Eleven is going spice-forward. Japanese-ingredient sweets such as Lemon Moko (¥216, August 11) are now fixtures.",
+      "src": "出典：日本食糧新聞／トクバイニュース"
+    }
+  ],
+  "kr": [
+    {
+      "region": "kr",
+      "eyebrow": "EARNINGS ・ 決算",
+      "ja": "農心の4-6月営業益+47.6% ─ 米国・中国が国内の停滞を補う",
+      "en": "Nongshim Q2 operating profit +47.6% as the US and China offset home",
+      "ja_body": "農心（ノンシム）の4-6月期連結売上高は前年同期比10.2%増の9,561億ウォン（約6.9億ドル）、営業利益は47.6%増の593億ウォン（約4,300万ドル）。米国と中国の海外売上が伸びを主導し、国内は横ばい圏。釜山の輸出専用工場が26年に稼働し、供給制約の解消が次の焦点。",
+      "en_body": "Nongshim posted Q2 consolidated revenue of KRW 956.1B (about $690M), up 10.2%, with operating profit up 47.6% to KRW 59.3B (about $43M). Overseas sales in the US and China drove the gain while domestic growth stayed muted. A new export-only plant in Busan starts up in 2026, making supply relief the next thing to watch.",
+      "src": "出典：農心／Seoul Economic Daily ※1ドル=1,386ウォンで概算"
+    },
+    {
+      "region": "kr",
+      "eyebrow": "EARNINGS ・ CJ",
+      "ja": "CJ第一製糖は増収減益 ─ 海外食品+10.1%も原料高が利益を圧迫",
+      "en": "CJ CheilJedang grows sales but profit falls on input costs",
+      "ja_body": "CJ第一製糖の4-6月期（8月11日発表）は連結売上高が10.2%増の4兆1,950億ウォン（約30.3億ドル）、営業利益は18.4%減の1,619億ウォン（約1.2億ドル）。海外食品が10.1%増の1兆5,072億ウォン（約10.9億ドル）と伸びをけん引した。為替・デリバティブ評価損で239億ウォンの純損失。",
+      "en_body": "CJ CheilJedang reported Q2 sales on August 11 of KRW 4,195B (about $3.03B), up 10.2%, with operating profit down 18.4% to KRW 161.9B (about $117M). Overseas food led the way, up 10.1% to KRW 1,507.2B (about $1.09B). FX and derivative valuation losses produced a net loss of KRW 23.9B.",
+      "src": "出典：CJ第一製糖／Investing.com ※1ドル=1,386ウォンで概算"
+    }
+  ],
+  "cn": [
+    {
+      "region": "cn",
+      "eyebrow": "RETAIL ・ 即時小売",
+      "ja": "即時小売はインフラ競争へ ─ アリババが「タオバオ・コンビニ」3,000店",
+      "en": "Instant retail shifts to infrastructure; Alibaba plans 3,000 stores",
+      "ja_body": "競争軸が補助金合戦から物流・店舗網の構築へ移った。アリババ（阿里巴巴）は年末までに小型店「タオバオ・コンビニ」を3,000店展開し、菓子・飲料を含む1万SKUを扱う計画。メイトゥアン（美団）は30分配送の「シャンゴウ」、ジンドン（京東）は「JD NOW」で対抗する。市場は2029年に1,267億ドルへ拡大する見通し。",
+      "en_body": "Competition has moved from subsidy wars to building logistics and store networks. Alibaba plans 3,000 Taobao Convenience Stores by year-end carrying 10,000 SKUs including snacks and beverages. Meituan counters with 30-minute Meituan Shangou and JD with JD NOW. The market is projected to reach $126.7B by 2029, with sub-60-minute delivery the tier-one standard.",
+      "src": "出典：China Digital Retail／Yahoo Finance／業界報道"
+    },
+    {
+      "region": "cn",
+      "eyebrow": "TREND ・ 機能性",
+      "ja": "機能性が主戦場に ─ 炭酸新商品の29%が健康訴求",
+      "en": "Function becomes the battleground: 29% of new carbonates carry a health claim",
+      "ja_body": "プレバイオティクスやビタミン、食物繊維を含む機能性飲料が「健康的な間食」として定着し、炭酸新商品の29%が健康訴求を持つ。飲料の機能性パーソナライズは12%成長。高齢化でヘルシーエイジング需要も拡大し、健康・鮮度・食感に加え味と価格が購買を左右する。",
+      "en_body": "Functional drinks with prebiotics, vitamins or fiber have settled in as a healthier snacking option, and 29% of new carbonated launches now carry at least one health claim. Functional personalization in beverages is growing 12%. Aging is lifting healthy-aging demand, while health, freshness and texture sit alongside flavor and price as purchase drivers.",
+      "src": "出典：Innova Market Insights／FoodNavigator"
+    }
+  ],
+  "trends": [
+    {
+      "ja": "スウィシー",
+      "en": "SWICY / SWANGY",
+      "ic": "chili"
+    },
+    {
+      "ja": "高たんぱく",
+      "en": "PROTEIN + FIBER",
+      "ic": "cart"
+    },
+    {
+      "ja": "抹茶・柚子",
+      "en": "MATCHA & YUZU",
+      "ic": "matcha_m"
+    },
+    {
+      "ja": "ピスタチオ",
+      "en": "PISTACHIO",
+      "ic": "latte"
+    },
+    {
+      "ja": "機能性ソーダ",
+      "en": "FUNCTIONAL SODA",
+      "ic": "soda"
+    }
+  ],
+  "products": [
+    {
+      "ja": "マサラ味スナック",
+      "en": "MASALA SNACKS",
+      "ic": "ube",
+      "region": "na",
+      "tag": "US ・ アジア食4倍成長"
+    },
+    {
+      "ja": "韓国BBQ味スナック",
+      "en": "KOREAN BBQ SNACKS",
+      "ic": "chili",
+      "region": "na",
+      "tag": "US ・ 伸長味TOP5"
+    },
+    {
+      "ja": "新米・コメ",
+      "en": "NEW-CROP RICE",
+      "ic": "onigiri",
+      "region": "jp",
+      "tag": "JP ・ 高温障害"
+    },
+    {
+      "ja": "濃厚チョコ",
+      "en": "RICH CHOCOLATE",
+      "ic": "popsicle",
+      "region": "jp",
+      "tag": "JP ・ 真夏投入"
+    },
+    {
+      "ja": "辛ラーメン",
+      "en": "SHIN RAMYUN",
+      "ic": "noodlebowl",
+      "region": "kr",
+      "tag": "KR ・ 営業益+47.6%"
+    },
+    {
+      "ja": "機能性炭酸",
+      "en": "FUNCTIONAL CARBONATES",
+      "ic": "soda",
+      "region": "cn",
+      "tag": "CN ・ 健康訴求29%"
+    }
+  ]
+}

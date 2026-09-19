@@ -1,0 +1,16 @@
+# 生成時の中間ファイル（gsf_pkg 内で生成されるHTML/PDF）
+gsf_pkg/*.html
+gsf_pkg/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+
+# 完成PDFの正本は PDF/YYYY-MM/ に置く方針。
+# 履歴として Git 管理したい場合は次行を削除:
+# PDF/

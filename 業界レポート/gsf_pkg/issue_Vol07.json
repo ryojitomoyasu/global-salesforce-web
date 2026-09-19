@@ -1,0 +1,200 @@
+{
+  "vol": "07",
+  "date": "2026.08.07",
+  "week": "Jul 31 – Aug 6, 2026",
+  "this_week": [
+    "26年の米食品価格+3.2%、牛肉・コーヒー最高値",
+    "日本の農林水産物輸出、上半期最高8,977億円",
+    "8月値上げ2,311品目、9月は4,531品目へ",
+    "サムヤン10日間で株価+18%、供給が需要に追わず"
+  ],
+  "na": [
+    {
+      "region": "na",
+      "art": "trade",
+      "eyebrow": "TRADE ・ 通商",
+      "ja": "関税の転嫁が本格化 ─ コーヒー+21%、伊パスタは合計107%も",
+      "en": "Tariff pass-through accelerates: coffee +21%, Italian pasta faces up to 107%",
+      "ja_body": "7月発動のブラジル向け50%関税に加え、コーヒー供給の2割を占めるコロンビアにも10%が課され、コーヒー小売は前年同月比21%高。EU・イタリア産農食品は基本15%、1月からイタリアの主要パスタ輸出13社に反ダンピング税が上乗せされ合計107%に達しうる。鉄鋼関税は缶詰にも波及する。",
+      "en_body": "On top of July's 50% duty on Brazil, Colombia — source of about 20% of US coffee — now faces 10%, lifting retail coffee 21% year on year. EU and Italian agri-food carries a 15% base rate, and from January anti-dumping duties on 13 major Italian pasta exporters could push the combined rate near 107%. Steel tariffs are feeding into canned goods.",
+      "src": "出典：USTR／NBC News／FoodNavigator-USA"
+    },
+    {
+      "region": "na",
+      "eyebrow": "PRICES ・ 物価",
+      "ja": "26年の食品価格+3.2%予測 ─ 牛群は1951年以来の低水準",
+      "en": "Food prices seen +3.2% in 2026 as the cattle herd hits a 1951 low",
+      "ja_body": "USDA ERSは2026年の食品価格を前年比+3.2%（2.2〜4.2%）と予測。牛肉は在庫が8,600万頭と1951年以来の低水準で上昇圧力が続く。生鮮野菜+6.8%、砂糖・菓子はチョコレート高で+7.2%、非アルコール飲料はコーヒー高で+5.2%と20年平均を上回る。",
+      "en_body": "USDA ERS forecasts all-food prices up 3.2% in 2026, in a 2.2–4.2% range. Beef stays strongest as the cattle herd nears 86 million head, the lowest since 1951. Fresh vegetables are seen up 6.8%, sugar and sweets up 7.2% on chocolate costs, and non-alcoholic beverages up 5.2% on coffee — all above 20-year averages.",
+      "src": "出典：USDA ERS／BLS／Grocery Dive"
+    },
+    {
+      "region": "na",
+      "eyebrow": "REGULATION ・ 規制",
+      "ja": "超加工食品の連邦定義が大統領府で審査中 ─ 信号機表示も浮上",
+      "en": "Federal UPF definition sits at the White House; traffic-light labels in play",
+      "ja_body": "FDAが準備する超加工食品（UPF）の連邦定義は大統領府の承認待ちで、数カ月内の公表が示唆される。定義は前面表示（FOP）ルールと連動し、当初案の白黒ボックスに代え赤・黄・青の「信号機」型が支持されている。",
+      "en_body": "The FDA's federal definition of ultra-processed foods awaits White House sign-off, with publication signalled within months. It is tied to the front-of-pack rule, where a red-yellow-green traffic-light scheme is now favored over the original black-and-white box.",
+      "src": "出典：FDA／FoodNavigator-USA／O'Melveny"
+    },
+    {
+      "region": "na",
+      "eyebrow": "PRIVATE LABEL ・ PB",
+      "ja": "PBが高たんぱくで攻勢 ─ クローガーは1食9〜21gを24品追加",
+      "en": "Private label goes high-protein: Kroger adds 24 SKUs at 9–21g",
+      "ja_body": "値ごろ志向でNBからPBへの乗り換えが続くなか、大手小売は機能性でPBを強化。クローガーはSimple Truthに1食9〜21gのたんぱく質を含む24品を追加した。たんぱく・食物繊維の訴求が棚の差別化軸となっている。",
+      "en_body": "As shoppers keep trading down from national brands, large retailers are arming private label with functional claims. Kroger added 24 Simple Truth SKUs carrying 9–21g of protein per serving. Protein and fiber messaging is now the key differentiator on shelf.",
+      "src": "出典：Supermarket News／FoodNavigator-USA"
+    },
+    {
+      "region": "na",
+      "eyebrow": "OUTLOOK ・ 見通し",
+      "ja": "26年の食品小売成長率を2〜4%に下方修正",
+      "en": "2026 retail food and beverage growth cut to 2–4%",
+      "ja_body": "サーカナは2026年の食品・飲料小売の成長見通しを3〜5%から2〜4%へ下方修正した。消費者が支出を絞り値ごろ感を求めるためで、激しい価格競争がコスト上昇下でも店頭価格を抑えている。",
+      "en_body": "Circana cut its 2026 growth outlook for retail food and beverage sales to 2–4% from 3–5%. Shoppers have pulled back and are hunting value, and intense price competition is keeping shelf prices in check even as input costs persist.",
+      "src": "出典：Circana／Food Dive／Sysco"
+    }
+  ],
+  "jp": [
+    {
+      "region": "jp",
+      "art": "summer",
+      "eyebrow": "EXPORT ・ 輸出",
+      "ja": "上半期の農林水産物・食品輸出が最高 ─ 8,977億円、緑茶が首位",
+      "en": "Record H1 agri-food exports of ¥897.7B, led by green tea",
+      "ja_body": "農林水産省は8月4日、2026年1〜6月の農林水産物・食品輸出額が前年同期比10.9%増の8,977億円となり、上半期として2年連続で過去最高と発表した。首位は緑茶で220億円増の482億円、2位ブリ、和牛は4位。仕向け先は米国・香港・中国の順だった。",
+      "en_body": "MAFF said on August 4 that agri-food exports reached ¥897.7B in January–June 2026, up 10.9% and a second straight record first half. Green tea led at ¥48.2B, up ¥22.0B, followed by yellowtail, with wagyu fourth. The US, Hong Kong and China ranked top three, and all ten leading destinations grew.",
+      "src": "出典：農林水産省／共同通信／時事通信"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "PRICES ・ 値上げ",
+      "ja": "8月値上げ2,311品目 ─ 加工食品は前年の約7倍、9月は4,531品目",
+      "en": "2,311 items rise in August; processed foods 7x last year, 4,531 due in September",
+      "ja_body": "帝国データバンクによると8月の飲食料品値上げは2,311品目で前年同月比8割増、平均改定率15%。加工食品が1,419品目と前年188品目の約7倍に膨らんだ。9月は4,531品目と約3年ぶりの多さになる見込み。日本ハムは約220品目を5〜46%引き上げた。",
+      "en_body": "Teikoku Databank counts 2,311 food and drink items repriced in August, up about 80% year on year at an average 15%. Processed foods jumped to 1,419 items from 188 a year earlier. September is set to bring 4,531 items, the most in roughly three years. Nippon Ham raised some 220 items by 5–46%.",
+      "src": "出典：帝国データバンク／流通ニュース／マイナビニュース"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "SEASON ・ 猛暑",
+      "ja": "猛暑商戦は「外に出さない」対策へ ─ アイスは6年連続最高",
+      "en": "Heatwave marketing pivots to keeping shoppers cool; ice sets a sixth record",
+      "ja_body": "アイスクリーム類・氷菓の2025年度販売は6,631億円（+2.8%）で6年連続の過去最高。ただし「暑ければ売れる」前提は崩れ、酷暑では外出自体が減る。ロッテは無料配布を伴う日陰の休憩拠点「涼スポット」を全国展開する。",
+      "en_body": "Ice cream and frozen dessert sales hit ¥663.1B in FY2025, up 2.8% and a sixth straight record. But the rule that heat lifts sales is breaking down, as extreme heat suppresses trips out. Lotte is rolling out nationwide shaded rest points with free samples of Soh and Coolish.",
+      "src": "出典：食品新聞／ロッテ"
+    }
+  ],
+  "kr": [
+    {
+      "region": "kr",
+      "eyebrow": "MARKET ・ 相場",
+      "ja": "サムヤン株が10日間で18%高 ─ 供給不足が構造的成長の証と評価",
+      "en": "Samyang up 18% in ten sessions as shortages signal structural growth",
+      "ja_body": "韓国取引所によると、サムヤン食品株は7月20〜30日の終値ベースで18.04%上昇した。同期間のKOSPIは14.16%下落しており逆行高が際立つ。米・中・欧でブルダックの供給が需要に追いつかず、海外好調が構造的成長に転じたとの見方が広がる。",
+      "en_body": "Korea Exchange data show Samyang Foods closed 18.04% higher over July 20–30, diverging sharply from the KOSPI's 14.16% decline. Buldak demand keeps outrunning supply in the US, China and Europe, and analysts increasingly read the overseas run as structural rather than a one-off.",
+      "src": "出典：韓国取引所／Seoul Economic Daily"
+    },
+    {
+      "region": "kr",
+      "eyebrow": "EXPORT ・ Kフード",
+      "ja": "26年の輸出目標160億ドル ─ 145社を「Global Next」に指定",
+      "en": "A $16B export target for 2026, with 145 firms named to Global Next",
+      "ja_body": "韓国農食品部はKフードプラスの2026年輸出目標を160億ドルに設定した。2025年実績は前年比5.1%増の136.2億ドルで過去最高。「Global Next K-Foodプロジェクト」で145社を指定し、大手と中小の共同商品開発を後押しする。8月には東京でKフードフェア＋を開く。",
+      "en_body": "Korea's agriculture ministry set a $16B K-Food+ export target for 2026, after a record $13.62B in 2025, up 5.1%. Its Global Next K-Food Project designates 145 companies, pairing large manufacturers with SMEs to co-develop products. A K-Food Fair+ in Tokyo this August widens the pitch to K-lifestyle.",
+      "src": "出典：韓国農食品部／Korea.net／AP Food Online"
+    }
+  ],
+  "cn": [
+    {
+      "region": "cn",
+      "eyebrow": "RETAIL ・ 即時小売",
+      "ja": "補助金戦争は終結 ─ 争点はM&Aと物流網へ",
+      "en": "The subsidy war ends; the fight moves to M&A and logistics",
+      "ja_body": "市場監督総局は長期・大規模な補助金と加盟店・配達員への費用転嫁を禁じる規則案を示し、美団・京東・阿里巴巴が即日で順守を表明した。阿里巴巴の即時小売損失は約870億元。競争軸は現金消耗からサプライチェーン買収へ移り、市場は2029年に1,267億ドルへ拡大する見通し。",
+      "en_body": "China's market regulator drafted rules barring sustained large-scale subsidies and forced cost-sharing with merchants and riders; Meituan, JD and Alibaba pledged compliance the same day. Alibaba's instant-retail losses reached about RMB 87B. Competition has shifted from cash burn to supply-chain M&A, and the market is seen at $126.7B by 2029.",
+      "src": "出典：SAMR／China Digital Retail／業界報道"
+    },
+    {
+      "region": "cn",
+      "eyebrow": "REGULATION ・ 新原料",
+      "ja": "上半期に新規食品原料12件を承認 ─ 機能性が新商品の45%超",
+      "en": "12 new food raw materials cleared in H1; functional tops 45% of launches",
+      "ja_body": "国家衛生健康委員会は2026年上半期に新規食品原料12件を含む38件を承認した。植物由来が中心で多糖類やポリフェノールなど機能性抽出物が大半。7月にはコーヒー豆総クロロゲン酸やα-GPCなど4件が意見公募にかかった。機能性飲料は新製品の45%超を占める。",
+      "en_body": "China's National Health Commission approved 38 items including 12 new food raw materials in H1 2026. Plant-derived inputs dominate, with polysaccharides and polyphenol extracts making up most filings. In July four more, among them coffee-bean chlorogenic acid and alpha-GPC, went to public comment. Functional drinks now exceed 45% of launches.",
+      "src": "出典：国家衛健委／CFSA／CIRS Group"
+    }
+  ],
+  "trends": [
+    {
+      "ja": "抹茶",
+      "en": "MATCHA +200%",
+      "ic": "matcha_m"
+    },
+    {
+      "ja": "スウィシー",
+      "en": "SWICY / HOT HONEY",
+      "ic": "chili"
+    },
+    {
+      "ja": "ピスタチオ",
+      "en": "PISTACHIO +300%",
+      "ic": "latte"
+    },
+    {
+      "ja": "高たんぱくPB",
+      "en": "HIGH-PROTEIN PB",
+      "ic": "cart"
+    },
+    {
+      "ja": "機能性ソーダ",
+      "en": "FUNCTIONAL SODA",
+      "ic": "soda"
+    }
+  ],
+  "products": [
+    {
+      "ja": "コーヒー",
+      "en": "COFFEE",
+      "ic": "latte",
+      "region": "na",
+      "tag": "US ・ +21%"
+    },
+    {
+      "ja": "高たんぱくPB",
+      "en": "HIGH-PROTEIN PRIVATE LABEL",
+      "ic": "cart",
+      "region": "na",
+      "tag": "US ・ 9〜21g"
+    },
+    {
+      "ja": "緑茶",
+      "en": "GREEN TEA",
+      "ic": "matcha_m",
+      "region": "jp",
+      "tag": "JP ・ 輸出482億円"
+    },
+    {
+      "ja": "氷菓・アイス",
+      "en": "ICES & FROZEN",
+      "ic": "popsicle",
+      "region": "jp",
+      "tag": "JP ・ 6,631億円"
+    },
+    {
+      "ja": "ブルダック",
+      "en": "BULDAK",
+      "ic": "noodlebowl",
+      "region": "kr",
+      "tag": "KR ・ 株+18%"
+    },
+    {
+      "ja": "機能性飲料",
+      "en": "FUNCTIONAL DRINKS",
+      "ic": "soda",
+      "region": "cn",
+      "tag": "CN ・ 新製品45%"
+    }
+  ]
+}

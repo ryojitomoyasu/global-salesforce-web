@@ -1,0 +1,205 @@
+{
+ "vol": "03",
+ "date": "2026.07.10",
+ "week": "Jul 10 – Jul 16, 2026",
+ "this_week": [
+  "代替関税 7/24失効へ最終局面",
+  "コメ5kg 3,500円割れ",
+  "合成着色料 年内全廃へ",
+  "ブルダック 米国で快進撃"
+ ],
+ "na": [
+  {
+   "region": "na",
+   "art": "trade",
+   "eyebrow": "TRADE ・ 通商",
+   "ja": "122条関税、7/24失効まで2週間 ─ 後継は301条12.5%案",
+   "en": "Section 122 tariff sunsets July 24; 12.5% Section 301 looms as successor",
+   "ja_body": "全輸入品への10%サーチャージ（通商法122条）は議会が延長しない限り7月24日に失効し、延長は困難との見方が大勢。5月に国際貿易裁判所が無効と判断したが、控訴審の停止命令で徴収は継続中。後継のUSTR301条調査2件は7月20日が完了期限で、日本・韓国・中国など46カ国に12.5%を課す案が浮上。対米輸出食品のコスト前提が今月再び動く公算。",
+   "en_body": "The 10% surcharge on virtually all imports (Section 122) expires July 24 unless Congress extends it — seen as unlikely. The Court of International Trade voided it in May, but collection continues under an appellate stay. USTR's two successor Section 301 probes face a July 20 deadline, with a proposal of 12.5% duties on 46 countries including Japan, Korea and China. Cost assumptions for food exports to the US may shift again this month.",
+   "src": "出典：Skadden／Holland & Knight／Brownstein"
+  },
+  {
+   "region": "na",
+   "eyebrow": "REGULATION ・ 規制",
+   "ja": "MAHA加速 ─ 合成着色料は年内全廃へ",
+   "en": "MAHA accelerates: synthetic dyes out by year-end",
+   "ja_body": "FDA・HHSは石油由来合成着色料を2026年末までに全廃する方針で、赤色3号は承認取消済み。GRAS自己認証を廃止する規則案も近く公表見込みで、再配合を迫られる企業が増える。ビートルートレッド承認など天然色素の選択肢は拡充中。",
+   "en_body": "FDA and HHS plan to phase out petroleum-based synthetic dyes by end-2026; Red No. 3 is already revoked. A proposed rule ending GRAS self-affirmation is expected soon, forcing more reformulation. Natural options are expanding, with beetroot red newly approved.",
+   "src": "出典：Akin Gump／Kelley Drye"
+  },
+  {
+   "region": "na",
+   "eyebrow": "PRICES ・ 物価",
+   "ja": "食品インフレ再燃の兆し ─ 牛肉+10%、トマト+32%",
+   "en": "Food inflation re-accelerating: beef +10%, tomatoes +32%",
+   "stats": [
+    "食品 +2.9%",
+    "トマト +32%",
+    "通年 最大+4.5%予測"
+   ],
+   "ja_body": "食品価格は前年比+2.9%へ再加速。牛肉+10%、トマト+32%が突出し、ディーゼル高が物流費を押し上げる。関税や肥料高を背景に通年で最大+4.5%との警告も。コーヒー・乳製品・酒類など輸入依存カテゴリーが特に脆弱。",
+   "en_body": "Food prices re-accelerated to +2.9% year on year, led by beef (+10%) and tomatoes (+32%), with diesel costs lifting logistics. Economists warn of up to +4.5% for the year on tariffs and fertilizer costs. Import-reliant categories — coffee, dairy, alcohol — look most exposed.",
+   "src": "出典：NBC News／Tax Foundation"
+  },
+  {
+   "region": "na",
+   "eyebrow": "M&A ・ 再編",
+   "ja": "米食品M&Aは底堅く ─ 「規模」より「戦略適合」",
+   "en": "US food M&A steady — strategic fit over scale",
+   "ja_body": "世界的な減速の中、米食品・飲料M&AはQ1で81件と底堅い。買い手は戦略適合案件へ絞り込み、GLP-1時代を背景に機能性・健康系ブランドへ需要が集中する。",
+   "en_body": "Despite a global slowdown, US food & beverage deals held steady at 81 in Q1. Buyers are narrowing to strategic-fit acquisitions, with GLP-1-era demand concentrated on functional and health-oriented brands.",
+   "src": "出典：PMCF／Food Business News"
+  },
+  {
+   "region": "na",
+   "eyebrow": "RETAIL ・ 消費",
+   "ja": "建国250年商戦 ─ 限定品ラッシュ",
+   "en": "America's 250th drives a limited-edition rush",
+   "ja_body": "建国250周年でコカ・コーラは全50州の限定缶を展開、ピルズベリー等も追随。スターバックスは7/28からオレンジクリーム系飲料を投入。猛暑で電解質飲料も棚を拡大中。",
+   "en_body": "For the semiquincentennial, Coca-Cola rolled out collectible cans for all 50 states, with Pillsbury following. Starbucks adds Orange Cream drinks from July 28, and summer heat is expanding shelf space for electrolyte beverages.",
+   "src": "出典：FoodNavigator-USA／Starbucks"
+  }
+ ],
+ "jp": [
+  {
+   "region": "jp",
+   "art": "summer",
+   "eyebrow": "SEASON ・ 猛暑商戦",
+   "ja": "“飲める氷”が主役に ─ 熱中症対策市場が拡大",
+   "en": "'Drinkable ice' takes center stage as heatstroke-prevention market grows",
+   "ja_body": "猛暑を追い風に熱中症対策商品が拡大。サントリーは7月7日、氷のまま飲める「GREEN DA･KA･RA ほぐれる氷のアイススラリー」をセブン‐イレブン限定で発売し、体温を事前に下げる“プレクーリング”需要を捉える。大正製薬のリポビタン アイススラリーも上位常連で、ローソンは7月に炭酸系氷菓の新作を投入。スポーツドリンクも含め夏の定番カテゴリーに定着した。",
+   "en_body": "Extreme heat is expanding the heatstroke-prevention category. On July 7 Suntory launched 'GREEN DA·KA·RA Ice Slurry' — ice you can drink — exclusively at 7-Eleven, capturing 'pre-cooling' demand to lower body temperature in advance. Taisho's Lipovitan Ice Slurry is a steady top seller, and Lawson adds a carbonated ice bar in July. With sports drinks, the segment is now a summer staple.",
+   "src": "出典：マイナビニュース／各社発表"
+  },
+  {
+   "region": "jp",
+   "eyebrow": "RICE ・ コメ",
+   "ja": "コメ5kg 3,500円割れ ─ 1年半ぶり、今度は「米余り」懸念",
+   "en": "Rice dips below ¥3,500/5kg — first in 18 months; glut now the worry",
+   "ja_body": "スーパーのコメ平均価格が1年半ぶりに5kg3,500円を下回った。増産で2026年産の作付意向は732万トンと適正水準（711万トン）超え。「令和の米騒動」から一転、価格急落への警戒が浮上し、政府は備蓄米15万トンの買い戻し経費を予算計上、需給を見て発動を判断する構えだ。",
+   "en_body": "Average supermarket rice prices fell below ¥3,500 per 5kg for the first time in 18 months. Planting intentions for 2026 hit 7.32 million tonnes, above the 7.11-million-tonne benchmark — flipping concern from the 'Reiwa rice crisis' to a glut. The government has budgeted a 150,000-tonne reserve buy-back, timed to supply and demand.",
+   "src": "出典：農林水産省／時事通信"
+  },
+  {
+   "region": "jp",
+   "eyebrow": "PRICES ・ 値上げ",
+   "ja": "値上げ、9月に年内最多3,029品目へ ─ 円安162円が重石",
+   "en": "Price hikes to peak at 3,029 items in September as yen hits 162",
+   "ja_body": "7月の2,566品目（平均+11%）に続き、8月1,898品目、9月は年内最多の3,029品目の見通し。年間判明分は14,902品目と5年連続で1万品目超え。6月末に1ドル=162円台と39年半ぶりの円安となり、輸入原材料の負担が続く。",
+   "en_body": "After July's 2,566 items (avg +11%), hikes cover 1,898 items in August and a 2026-high 3,029 in September. The announced annual total is 14,902 — above 10,000 for a fifth straight year. With the yen at 162/USD in late June, its weakest in 39½ years, imported-input costs persist.",
+   "src": "出典：帝国データバンク／NHK"
+  }
+ ],
+ "kr": [
+  {
+   "region": "kr",
+   "eyebrow": "EXPORT ・ Kフード",
+   "ja": "三養「ブルダック」米国で快進撃 ─ マック&チーズ参入",
+   "en": "Samyang's Buldak surges in US, storms the mac & cheese aisle",
+   "ja_body": "三養食品の米国売上は2023年の5,000万ドルから昨年4.19億ドルへ急拡大。Costco・Walmart等で棚を確保し、「ブルダック マック&チーズ」2種をWalmart限定で秋まで展開。需要が能力を上回る中、浙江省嘉興の初海外工場は8ラインに増強し2027年稼働予定。",
+   "en_body": "Samyang's US sales jumped from $50M in 2023 to $419M last year, with shelf space at Costco, Walmart and beyond. Its two Buldak Mac & Cheese varieties run Walmart-exclusive through late fall. With demand outrunning capacity, its first overseas plant in Jiaxing was expanded to eight lines for a 2027 start.",
+   "src": "出典：Korea Times／PR Newswire"
+  },
+  {
+   "region": "kr",
+   "eyebrow": "INDUSTRY ・ 生産",
+   "ja": "農心、釜山輸出専用工場が下期稼働 ─ 模倣Kフードに警戒",
+   "en": "Nongshim's export-only Busan plant starts H2; knockoffs a rising concern",
+   "ja_body": "農心の釜山・緑山輸出専用工場（年産最大27億食）が下期にフル稼働へ。ラーメン輸出は2025年に15.2億ドル（+21.8%）と単品初の15億ドル超え。一方、韓国風パッケージの中国・米国製“模倣Kフード”の拡大が業界の懸念材料に。",
+   "en_body": "Nongshim's export-only Busan plant (up to 2.7 billion servings/year) reaches full operation in H2. Ramyeon exports hit $1.52B in 2025 (+21.8%), the first single item above $1.5B. Meanwhile 'knockoff K-food' — Chinese and US-made items in Korean-style packaging — is a growing industry worry.",
+   "src": "出典：Korea Herald／Korea Times"
+  }
+ ],
+ "cn": [
+  {
+   "region": "cn",
+   "eyebrow": "BEVERAGE ・ 茶飲",
+   "ja": "蜜雪冰城、売上+35%で55,000店 ─ 米国にも上陸",
+   "en": "Mixue tops 55,000 stores on +35% revenue — and lands in the US",
+   "ja_body": "蜜雪冰城の2025年売上は336億元（+35%）、店舗数55,000超は外食チェーンとして世界最大。国内は3級都市以下が過半、海外はインドネシア2,600店超など東南アジアを深耕。米国ではHeyTeaとともにNYで行列を生み、中国系茶飲のグローバル展開が新段階に。",
+   "en_body": "Mixue's 2025 revenue rose 35% to RMB 33.6B; with 55,000+ outlets it is the world's largest chain by store count. Over half its domestic shops sit in third-tier cities or below; overseas it runs 2,600+ stores in Indonesia. In the US, Mixue and HeyTea draw lines in New York — Chinese tea brands' global push enters a new phase.",
+   "src": "出典：Mixue決算／Capital FM／WARC"
+  },
+  {
+   "region": "cn",
+   "eyebrow": "HEALTH ・ 機能性",
+   "ja": "機能性食品は約1,000億ドル市場へ ─ 原料の35〜45%は輸入",
+   "en": "Functional foods near $100B; imports cover 35–45% of ingredients",
+   "ja_body": "中国の機能性・健康食品市場は2026年に950〜1,100億ドル規模へ。プロバイオティクスは年12〜14%成長で最速、ホエイ等の高タンパク原料も拡大。植物抽出物やオメガ3など高付加価値原料は輸入が35〜45%を占め、海外サプライヤーに追い風が続く。",
+   "en_body": "China's functional and health food market is projected at $95–110B in 2026. Probiotics are the fastest segment at 12–14% annual growth, and high-protein inputs like whey are spreading. Imports cover 35–45% of high-value ingredients such as botanical extracts and omega-3s — a tailwind for overseas suppliers.",
+   "src": "出典：IndexBox／USDA FAS GAIN"
+  }
+ ],
+ "trends": [
+  {
+   "ja": "スワイシー→スウェイボリー",
+   "en": "SWICY → SWAVORY",
+   "ic": "chili"
+  },
+  {
+   "ja": "ピスタチオ",
+   "en": "PISTACHIO +450%",
+   "ic": "latte"
+  },
+  {
+   "ja": "ほうじ茶",
+   "en": "HOJICHA",
+   "ic": "matcha_m"
+  },
+  {
+   "ja": "電解質ドリンク",
+   "en": "ELECTROLYTES",
+   "ic": "soda"
+  },
+  {
+   "ja": "オレンジクリーム",
+   "en": "ORANGE CREAM",
+   "ic": "orange"
+  }
+ ],
+ "products": [
+  {
+   "ja": "アイススラリー",
+   "en": "ICE SLURRY",
+   "ic": "popsicle",
+   "region": "jp",
+   "tag": "JP ・ 飲める氷"
+  },
+  {
+   "ja": "ブルダック M&C",
+   "en": "BULDAK MAC&CHEESE",
+   "ic": "noodlebowl",
+   "region": "kr",
+   "tag": "KR ・ Walmart限定"
+  },
+  {
+   "ja": "建国250年限定缶",
+   "en": "COKE 250TH CANS",
+   "ic": "soda",
+   "region": "na",
+   "tag": "US ・ 全50州デザイン"
+  },
+  {
+   "ja": "オレンジクリーム",
+   "en": "ORANGE CREAM",
+   "ic": "orange",
+   "region": "na",
+   "tag": "US ・ 7/28発売"
+  },
+  {
+   "ja": "いちご抹茶",
+   "en": "STRAWBERRY MATCHA",
+   "ic": "matcha_m",
+   "region": "jp",
+   "tag": "JP ・ 検索+134%"
+  },
+  {
+   "ja": "蜜雪冰城",
+   "en": "MIXUE",
+   "ic": "latte",
+   "region": "cn",
+   "tag": "CN ・ 米国上陸"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+  "vol": "10",
+  "date": "2026.08.28",
+  "week": "Aug 22 – Aug 28, 2026",
+  "this_week": [
+    "超加工食品の連邦定義がOMBへ、規則でなく白書",
+    "8月の値上げ2,311品目、9月は4,000品目超へ",
+    "韓国即席麺2社の海外売上、+47%と+31%",
+    "蜜雪氷城の上半期純利益14.7%減、株価続落"
+  ],
+  "na": [
+    {
+      "region": "na",
+      "art": "trade",
+      "eyebrow": "REGULATION ・ 規制",
+      "ja": "超加工食品の連邦定義がOMBへ ─ ただし規則案でなく「白書」",
+      "en": "A federal definition of ultra-processed food reaches OMB, as a white paper",
+      "ja_body": "FDAとHHSは8月3日、超加工食品（UPF）の連邦定義をOMBに提出した。ただし規則案ではなく白書扱いで、それ自体は表示や配合の義務を生まない。同時にGRAS成分の届出義務化も提案され、原材料の入口管理が動き始めた。",
+      "en_body": "The FDA and HHS sent a federal definition of ultra-processed food to OMB on August 3. It was filed as a white paper rather than a proposed rule, so on its own it creates no labeling or reformulation duty. In parallel the agency proposed making GRAS notification mandatory, tightening the gate on new ingredients.",
+      "src": "出典：Food Safety Magazine／FoodNavigator-USA／AJMC"
+    },
+    {
+      "region": "na",
+      "eyebrow": "PRICES ・ 物価",
+      "ja": "値上がりと値下げ競争が同時進行 ─ ウォルマートが8月24日に価格引き下げ",
+      "en": "Prices rise and price cuts land at once: Walmart trims on August 24",
+      "ja_body": "USDAは26年の食品価格を全体+3.1%、家庭内消費+2.7%、生鮮野菜は+6.8%と予測する。一方でウォルマートは8月24日に値下げを発表、クローガーも数千品目を引き下げる。物価上昇と価格競争が同時に進む。",
+      "en_body": "The USDA forecasts 2026 food prices up 3.1% overall, 2.7% at grocery and 6.8% for fresh vegetables. Against that, Walmart announced price cuts on August 24 and Kroger says it will lower prices on thousands of items. Inflation and retail price competition are running at once.",
+      "src": "出典：USDA ERS／Marketplace／Yahoo Finance"
+    },
+    {
+      "region": "na",
+      "eyebrow": "TRADE ・ 通商",
+      "ja": "関税の店頭転嫁は12〜18か月 ─ 26年後半が転換点との見方",
+      "en": "Tariffs take 12–18 months to reach shelves; late 2026 is the inflection",
+      "ja_body": "関税コストの店頭転嫁には12〜18か月かかるとされ、26年後半が転換点との見方が強い。メキシコ産に最大25%が効き、トマト・アボカド・ライムが上昇。月800ドルを食品に使う世帯で年540ドルの上乗せ試算も。",
+      "en_body": "Tariff costs take an estimated 12 to 18 months to pass into shelf prices, putting the inflection point in late 2026. Duties of up to 25% on Mexican goods are lifting tomatoes, avocados and limes. One estimate puts the pass-through at $540 a year for a household spending $800 a month on food.",
+      "src": "出典：FoodNavigator-USA／FMI／業界試算"
+    },
+    {
+      "region": "na",
+      "eyebrow": "M&A ・ 再編",
+      "ja": "クラフト・ハインツが分割を撤回 ─ 3地域体制へ、大手の再編続く",
+      "en": "Kraft Heinz drops the split and reorganizes into three regions",
+      "ja_body": "クラフト・ハインツは7月1日付で2社分割案を撤回し、北米・欧州＋先進太平洋・新興国の3地域体制へ再編。調達と供給網も統合した。ユニリーバは食品事業の分離を検討、ネスレも資産売却を進める。",
+      "en_body": "Effective July 1, Kraft Heinz abandoned its two-company split and reorganized into three regions: North America, Europe plus developed Pacific, and emerging markets, merging procurement and supply chain. Unilever is weighing a separation of foods and Nestle continues asset sales.",
+      "src": "出典：FoodNavigator／Food Ingredients First／CNBC"
+    },
+    {
+      "region": "na",
+      "eyebrow": "FLAVOR ・ 味の潮流",
+      "ja": "ピスタチオ300%超 ─ 甘辛は「スワンギー」へ、ダーティソーダも急伸",
+      "en": "Pistachio up over 300%; swicy splinters into swangy, dirty soda surges",
+      "ja_body": "ピスタチオは直近1年で300%超の伸び、飲料は4年で2倍に拡大。甘辛の「スウァイシー」は酸を足した「スワンギー」、旨味の「スワボリー」へ派生した。「ダーティソーダ」も300%超伸びている。",
+      "en_body": "Pistachio has grown more than 300% in a year and pistachio beverages have doubled in four. Swicy is splintering into swangy, which adds tang, and swavory, which adds savory depth. Dirty soda, layered at home, is also up more than 300%.",
+      "src": "出典：Tastewise／Food Dive／IFT"
+    }
+  ],
+  "jp": [
+    {
+      "region": "jp",
+      "art": "summer",
+      "eyebrow": "PRICES ・ 値上げ",
+      "ja": "8月の値上げ2,311品目 ─ 9月は4,000品目超、約3年ぶりの多さへ",
+      "en": "2,311 items repriced in August; September tops 4,000, a three-year high",
+      "ja_body": "帝国データバンクによると、8月の飲食料品値上げは2,311品目で前年同月比8割増。9月は4,000品目を超え、約3年ぶりの多さとなる見通しだ。最多はハム・カップ麺・缶詰などの加工食品1,419品目で前年同月の約7倍。中東情勢による原油・ナフサ高が資材費に波及した。",
+      "en_body": "Teikoku Databank counts 2,311 food and beverage items repriced in August, up 80% from a year earlier. September will exceed 4,000 items, the most in about three years. Processed foods led with 1,419 items, including ham, cup noodles and canned goods, roughly seven times a year ago. Crude and naphtha costs tied to the Middle East have fed into packaging materials.",
+      "src": "出典：帝国データバンク／PR TIMES"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "RICE ・ コメ",
+      "ja": "相対価格は上昇、店頭は下落 ─ 9月の新米で下押し圧力",
+      "en": "Wholesale rice up, shelf prices down, with new crop pressing lower",
+      "ja_body": "農水省が8月19日に公表した7月の相対取引価格は玄米60kg当たり3万2,486円で、前月比4%上昇。一方、店頭は8月3〜9日平均で5kg 3,220円と前年比13.8%安。9月の新米本格出回りでさらに下押しがかかる見通しで、川上と川下で方向が分かれている。",
+      "en_body": "The July wholesale reference price published by MAFF on August 19 was 32,486 yen per 60kg of brown rice, up 4% from June. Shelf prices moved the other way, averaging 3,220 yen per 5kg over August 3–9, 13.8% below a year earlier. New-crop supply in September should press retail lower still, splitting upstream from downstream.",
+      "src": "出典：農林水産省／SMART AGRI"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "EXPORT ・ 輸出",
+      "ja": "抹茶の国際会議が11月に東京 ─ 規格と供給が次の論点",
+      "en": "A first global matcha congress lands in Tokyo in November",
+      "ja_body": "International Matcha Associationは8月25日、11月12日に東京・八重洲で開く世界初の抹茶国際会議の登壇者とチケット販売を発表した。緑茶輸出は21年の204億円から25年に約720億円へ、10年で約7倍。一方で抹茶の定義・国際規格・共通グレーディングの不在と供給不足が課題だ。",
+      "en_body": "On August 25 the International Matcha Association named speakers and opened ticket sales for the first global matcha congress, to be held in Tokyo's Yaesu district on November 12. Green tea exports grew from 20.4 billion yen in 2021 to roughly 72.0 billion in 2025, sevenfold in a decade. Yet no agreed definition, standard or common grading exists, and supply stays tight.",
+      "src": "出典：事業構想オンライン／農林水産省／日本食糧新聞"
+    }
+  ],
+  "kr": [
+    {
+      "region": "kr",
+      "eyebrow": "EARNINGS ・ 決算",
+      "ja": "即席麺2社の海外売上が急伸 ─ 三養+47%、農心+31%",
+      "en": "Overseas sales jump at Korea's noodle makers: Samyang +47%, Nongshim +31%",
+      "ja_body": "第2四半期は即席麺各社が市場予想を上回った。三養食品は売上7,703億ウォン・営業益1,762億ウォン、農心は9,561億ウォン・593億ウォン。海外売上は三養6,548億ウォン（+47%）、農心3,286億ウォン（+31%）。米国での主流化と欧州の配荷拡大が押し上げた。",
+      "en_body": "Every major Korean ramyun maker met or beat expectations in the second quarter. Samyang Foods posted sales of KRW 770.3B and operating profit of KRW 176.2B; Nongshim reported KRW 956.1B and KRW 59.3B. Overseas sales reached KRW 654.8B at Samyang, up 47%, and KRW 328.6B at Nongshim, up 31%, on mainstream US placement and wider European distribution.",
+      "src": "出典：KED Global／Seoul Economic Daily"
+    },
+    {
+      "region": "kr",
+      "eyebrow": "EXPORT ・ 輸出",
+      "ja": "中央アジアで1.7億ドル ─ 工場と販売子会社の設置が加速",
+      "en": "$168M in Central Asia as plants and sales subsidiaries multiply",
+      "ja_body": "伸びは新興市場にも及ぶ。カザフスタン・ウズベキスタン・キルギス向けラーメン輸出は上半期で1億6,789万ドル。設備も動き、三養は中国拠点を増強、農心は釜山・緑山工場を増設、オットギは亀尾に輸出専用工場を建てる。南米・欧州では販売子会社の設置が進む。",
+      "en_body": "Growth is reaching frontier markets too. Ramyun exports to Kazakhstan, Uzbekistan and Kyrgyzstan totaled $167.89M in the first half. Capacity follows: Samyang is expanding in China, Nongshim is adding lines at its Noksan plant in Busan, and Ottogi is building an export-only factory in Gumi. Sales subsidiaries are going up across South America and Europe.",
+      "src": "出典：The Herald Business／KED Global"
+    }
+  ],
+  "cn": [
+    {
+      "region": "cn",
+      "eyebrow": "EARNINGS ・ 決算",
+      "ja": "蜜雪氷城の上半期純利益14.7%減 ─ 6.4万店でもコスト増が重い",
+      "en": "Mixue's first-half profit falls 14.7% despite 64,000 stores",
+      "ja_body": "蜜雪氷城（ミーシュエ）の上半期は純利益が前年比14.7%減の23.2億元、売上は2.3%増の152.2億元にとどまった。8月27日に株価は8.37%安、翌28日も7%超下げている。世界約6.4万店を展開するが、原材料と運営コストの上昇、飲料チェーン間の値下げ競争が採算を圧迫している。",
+      "en_body": "Mixue's first-half net profit fell 14.7% year on year to RMB 2.32B, while revenue rose just 2.3% to RMB 15.22B. Its Hong Kong shares dropped 8.37% on August 27 and more than 7% again on August 28. The chain runs roughly 64,000 stores worldwide, but rising input and operating costs plus price competition among drinks chains are squeezing margins.",
+      "src": "出典：CNBC／Caixin Global"
+    },
+    {
+      "region": "cn",
+      "eyebrow": "REGULATION ・ 規制",
+      "ja": "9月2日に健康食品GMPが28年ぶり改訂施行 ─ 接触材料規格も同日",
+      "en": "Health-food GMP is rewritten after 28 years, effective September 2",
+      "ja_body": "規制は9月2日が節目だ。健康食品のGMP（GB 17405-2025）が1998年以来28年ぶりの改訂版として施行され、食品接触材料の2規格も同日発効する（移行期間1年）。2月公布のGB 2763は585農薬・10,749の残留基準を収載。輸入食品の設計と書類はこの新基準に合わせる必要がある。",
+      "en_body": "September 2 is the date to watch. China's good manufacturing practice standard for health food, GB 17405-2025, takes effect as the first revision since 1998, and two food-contact-material standards start the same day with a one-year transition. GB 2763, published in February, carries 10,749 residue limits across 585 pesticides. Import formulations and dossiers must be aligned to these.",
+      "src": "出典：ChemLinked／USDA FAS GAIN／CIRS"
+    }
+  ],
+  "trends": [
+    { "ja": "ピスタチオ", "en": "PISTACHIO", "ic": "latte" },
+    { "ja": "スワンギー", "en": "SWANGY", "ic": "chili" },
+    { "ja": "ダーティソーダ", "en": "DIRTY SODA", "ic": "soda" },
+    { "ja": "高たんぱく", "en": "PROTEIN FORWARD", "ic": "cart" },
+    { "ja": "抹茶", "en": "MATCHA", "ic": "matcha_m" }
+  ],
+  "products": [
+    {
+      "ja": "ピスタチオ飲料",
+      "en": "PISTACHIO BEVERAGES",
+      "ic": "latte",
+      "region": "na",
+      "tag": "US ・ 4年で2倍"
+    },
+    {
+      "ja": "ダーティソーダ",
+      "en": "DIRTY SODA",
+      "ic": "soda",
+      "region": "na",
+      "tag": "US ・ 前年比+300%"
+    },
+    {
+      "ja": "秋の新作コンビニスイーツ",
+      "en": "AUTUMN CVS DESSERTS",
+      "ic": "onigiri",
+      "region": "jp",
+      "tag": "JP ・ 8月下旬一斉投入"
+    },
+    {
+      "ja": "抹茶",
+      "en": "MATCHA",
+      "ic": "matcha_m",
+      "region": "jp",
+      "tag": "JP ・ 緑茶輸出10年で7倍"
+    },
+    {
+      "ja": "ブルダック炒め麺",
+      "en": "BULDAK RAMYUN",
+      "ic": "noodlebowl",
+      "region": "kr",
+      "tag": "KR ・ 海外売上+47%"
+    },
+    {
+      "ja": "蜜雪氷城の氷菓・茶飲料",
+      "en": "MIXUE ICE & TEA",
+      "ic": "popsicle",
+      "region": "cn",
+      "tag": "CN ・ 世界6.4万店"
+    }
+  ]
+}

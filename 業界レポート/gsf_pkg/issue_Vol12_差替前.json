@@ -1,0 +1,200 @@
+{
+  "vol": "12",
+  "date": "2026.09.11",
+  "week": "Sep 5 – Sep 11, 2026",
+  "this_week": [
+    "301条関税に25州が提訴、輸入の99.4%が対象",
+    "FDAがGRAS届出の義務化案、意見は12月9日まで",
+    "2026年産新米、概算金は最大5割安に",
+    "K-Food+は7月末で83.2億ドルと過去最高"
+  ],
+  "na": [
+    {
+      "region": "na",
+      "art": "trade",
+      "eyebrow": "TRADE ・ 通商",
+      "ja": "301条「強制労働」関税に25州が提訴 ─ 米輸入の99.4%が対象",
+      "en": "25 states sue over Section 301 forced-labor tariffs covering 99.4% of imports",
+      "ja_body": "USTRは7月23日、強制労働の取締り不十分を理由に60の国・地域へ301条関税を発動した。税率は10%または12.5%、対象は米国輸入額の99.4%に及ぶ。8月3日には25州の司法長官が提訴し、2月に最高裁が無効としたIEEPA関税の「代替に過ぎない」と主張している。",
+      "en_body": "On July 23 USTR imposed Section 301 tariffs on 60 economies for failing to enforce bans on forced-labor goods. Rates are 10% or 12.5% and the action covers 99.4% of US imports. On August 3 attorneys general from 25 states sued, arguing the levies are merely a substitute for the IEEPA tariffs the Supreme Court struck down in February.",
+      "src": "出典：USTR／Court of International Trade／Holland & Knight"
+    },
+    {
+      "region": "na",
+      "eyebrow": "REGULATION ・ 規制",
+      "ja": "GRAS届出の義務化案 ─ 97年以来の自主申告制を転換へ",
+      "en": "FDA proposes mandatory GRAS notification, ending the 1997 voluntary system",
+      "ja_body": "FDAは8月10日、企業が自ら「一般に安全（GRAS）」と判断した添加物について、FDAへの届出を義務づける規則案を公表した。事前承認制ではなく審査中も販売は可能。既存品には簡易経路を期限付きで設ける。意見受付は12月9日まで。",
+      "en_body": "On August 10 the FDA proposed requiring companies to notify the agency whenever they conclude an added substance is GRAS, replacing the voluntary system in place since 1997. It is not premarket approval: marketing may continue during review. Substances already sold get a time-limited streamlined path. Comments close December 9.",
+      "src": "出典：FDA／HHS／Federal Register 91 FR 51834"
+    },
+    {
+      "region": "na",
+      "eyebrow": "PRICES ・ 物価",
+      "ja": "26年の家庭内食品は+2.5% ─ 牛肉+9.8%、卵は-30.4%",
+      "en": "Food-at-home to rise 2.5% in 2026; beef up 9.8%, eggs down 30.4%",
+      "ja_body": "USDAは26年の家庭内食品価格を+2.5%と見込む。過去20年平均を下回るが品目差は大きく、牛肉・子牛肉は+9.8%。年初の飼養頭数は8,620万頭と1950年代以来の低水準。一方、鳥インフル収束で卵は-30.4%と最大の緩和要因になる。",
+      "en_body": "USDA sees food-at-home prices rising 2.5% in 2026, below the 20-year average, but the spread by category is wide. Beef and veal are forecast up 9.8%, with the herd opening the year at 86.2 million head, the smallest since the early 1950s. Eggs are seen down 30.4% as the laying flock rebuilds after avian influenza.",
+      "src": "出典：USDA ERS Food Price Outlook／USDA NASS"
+    },
+    {
+      "region": "na",
+      "eyebrow": "RETAIL ・ 小売",
+      "ja": "食品支出はウォルマート・コストコ・アマゾンへ ─ PB投資が加速",
+      "en": "Grocery dollars shift to Walmart, Costco and Amazon as private label accelerates",
+      "ja_body": "CPG支出シェアはウォルマート20.8%、コストコ8.2%、アマゾン/ホールフーズ8.1%。上位3社が伸びる一方で伝統的スーパーは縮小し、クローガーから1年で120億ドルが流出。約97%の小売がPB投資を増やすと答えた。",
+      "en_body": "CPG dollar share now runs Walmart 20.8%, Costco 8.2% and Amazon/Whole Foods 8.1%. The top three gained over the year while conventional supermarkets slipped, with about $12 billion moving away from Kroger alone. Roughly 97% of grocers say they will raise private label investment.",
+      "src": "出典：Numerator／Grocery Dive／Supermarket News／McKinsey"
+    },
+    {
+      "region": "na",
+      "eyebrow": "M&A ・ 企業",
+      "ja": "バリラがGoodles買収、キャンベルは減配36% ─ 明暗が分かれる",
+      "en": "Barilla buys Goodles while Campbell's cuts its dividend 36%",
+      "ja_body": "バリラは9月2日、高たんぱくマカロニ＆チーズのGoodles（加州）の買収で合意。キャンベルは26年度売上が-5%の97億ドル、四半期配当を36%減の0.25ドルとし、30年度までに5億ドルのコスト削減を打ち出した。",
+      "en_body": "Barilla agreed on September 2 to acquire Goodles, the higher-protein mac-and-cheese brand in Santa Cruz. Campbell's fiscal 2026 net sales fell 5% to $9.7 billion; it cut the quarterly dividend 36% to $0.25 and announced $500 million in cost savings through fiscal 2030.",
+      "src": "出典：Barilla Group／The Campbell's Company／Food Business News"
+    }
+  ],
+  "jp": [
+    {
+      "region": "jp",
+      "art": "summer",
+      "eyebrow": "MARKET ・ コメ",
+      "ja": "2026年産新米は大幅安 ─ 概算金は最大5割減、店頭は5kg3,000円前後へ",
+      "en": "2026 new-crop rice falls sharply: advance payments down up to 50%, shelf price near ¥3,000",
+      "ja_body": "26年産新米の出回りが本格化し、JAが生産者に支払う概算金は産地・銘柄により前年比2〜4割、最大で5割の下落となった。流通序盤の店頭価格は5kg3,000円前後が見込まれる。高値による消費減退で25年産の民間在庫が積み上がったところに26年産の増産が重なり、需給は緩和方向に転じた。",
+      "en_body": "As the 2026 crop reaches the market, the advance payments JA co-ops make to growers have fallen 20-40% from last year and by as much as 50% in some regions and varieties. Early shelf prices are expected near 3,000 yen for 5kg. Private stocks of the 2025 crop had piled up as high prices cut consumption, and a larger 2026 harvest on top of that has tipped supply and demand toward easing.",
+      "src": "出典：日本経済新聞／共同通信／農林水産省"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "PRICES ・ 値上げ",
+      "ja": "9月の値上げは4,900品目超 ─ 約3年ぶりの多さ、中東発コストも",
+      "en": "September repricing tops 4,900 items, the most in about three years",
+      "ja_body": "9月の飲食料品値上げは4,900品目超と、単月で約3年ぶりの多さ。前年9月の3倍規模となった。調味料が最多で、冷凍食品はニッスイ・テーブルマーク・ニップンが一斉に改定。要因は原材料高90.7%、エネルギー65.1%。",
+      "en_body": "More than 4,900 food and beverage items were repriced in September, the heaviest single month in about three years and roughly triple a year earlier. Seasonings led, and frozen-food makers Nissui, TableMark and Nippn all raised prices together. Drivers cited: raw materials 90.7% and energy 65.1%.",
+      "src": "出典：帝国データバンク／報道各社"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "PRODUCT ・ 秋商戦",
+      "ja": "秋は「芋栗」一色 ─ さつまいも商材が菓子からスナックまで拡大",
+      "en": "Autumn goes all-in on sweet potato and chestnut, from bakery to salty snacks",
+      "ja_body": "9月の秋商戦はさつまいもと栗が主役。ミスタードーナツは9月2日から「さつまいもド」全5種を投入し、食感訴求を強めた。カルビーの秋冬限定「おさつスナック」は9月7日にコンビニ先行で発売。焼き菓子からスナックまで広がっている。",
+      "en_body": "Sweet potato and chestnut headline the September season. Mister Donut launched five Satsumaimo-Do doughnuts on September 2, leaning on texture. Calbee's autumn-winter Osatsu Snack went on sale at convenience stores first on September 7. The theme now runs from baked confectionery through to salty snacks.",
+      "src": "出典：各社公式発表／報道各社"
+    }
+  ],
+  "kr": [
+    {
+      "region": "kr",
+      "eyebrow": "EXPORT ・ 輸出",
+      "ja": "K-Food+は7月末83.2億ドル ─ ラーメンの10億ドル突破は1カ月前倒し",
+      "en": "K-Food+ hits $8.32bn by end-July; ramyun passed $1bn a month earlier than last year",
+      "ja_body": "韓国農林畜産食品部によると、7月末のK-Food+輸出は83.2億ドルで前年同期比+5.3%と過去最高。うち農食品は上半期53.8億ドル（+5.0%）。ラーメンは10億ドル突破が前年の9月初旬から7月中旬へ1カ月以上前倒しに。年間目標は160億ドル。",
+      "en_body": "The agriculture ministry says K-Food+ exports reached $8.32 billion by the end of July, up 5.3% year on year and an all-time high. Agri-food itself came to $5.38 billion in the first half, up 5.0%. Ramyun crossed $1 billion in mid-July, more than a month earlier than last year's early-September mark. The annual target is $16 billion.",
+      "src": "出典：韓国農林畜産食品部／KATI／Korea.net"
+    },
+    {
+      "region": "kr",
+      "eyebrow": "PRODUCT ・ 商品戦略",
+      "ja": "辛さを下げるKラーメン ─ 中東・中央アジアなど新市場を開拓",
+      "en": "K-ramyun turns down the heat to open the Middle East and Central Asia",
+      "ja_body": "輸出拡大の次の一手は「辛さの調整」。各社は海外の嗜好に合わせたマイルド版や現地化フレーバーを増やし、辛さ別の棚展開も広がる。地域別では中東GCCが+25.2%と最も高く、中南米+19.5%、欧州+17.9%。政府も145社を選び販促を支援する。",
+      "en_body": "The next lever for export growth is heat level. Makers are adding milder versions and localized flavors for overseas palates, and shelves are increasingly sorted by spiciness. By region the Middle East GCC grew fastest at 25.2%, followed by Latin America at 19.5% and Europe at 17.9%. Seoul is backing promotion for 145 selected companies.",
+      "src": "出典：Korea JoongAng Daily／韓国農林畜産食品部／AP Food Online"
+    }
+  ],
+  "cn": [
+    {
+      "region": "cn",
+      "eyebrow": "REGULATION ・ 規制",
+      "ja": "デリバリー補助金に規制の網 ─ 「内巻」競争から会員制へ",
+      "en": "Beijing reins in delivery subsidies as platforms pivot from price wars to membership",
+      "ja_body": "国家市場監督管理総局は、デリバリー各社の補助金を規制する「補助行為規範10条」案を示した。長期・大型の補助による過当競争に歯止めをかける狙い。メイトゥアン（美団）、ジンドン（京東）、タオバオ閃購の3社とも支持を表明。利益率5%を切る中小飲食店の「内巻」是正が目的で、各社は会員制へ軸足を移す。",
+      "en_body": "The State Administration for Market Regulation has circulated a ten-point draft code on delivery-platform subsidies, aimed at stopping irrational competition fuelled by large, long-running discounts. Meituan, JD and Taobao Shangou have all voiced support. The target is the involution that has squeezed small restaurants below 5% margins, and platforms are shifting toward paid membership.",
+      "src": "出典：国家市場監督管理総局／首都食品安全周刊／報道各社"
+    },
+    {
+      "region": "cn",
+      "eyebrow": "RETAIL ・ 小売",
+      "ja": "量販スナックが急拡大 ─ 「濃い味」と「機能性」の二極化が進む",
+      "en": "Bulk snack chains surge as China's snacking splits between indulgence and function",
+      "ja_body": "量販スナック（零食量販店）は19〜24年に年平均77.9%で拡大し、29年まで年36.5%の成長が見込まれる。Tmallやジンドンに加え、メイトゥアンなどの即時配送も受け皿に。商品は激辛肉系の「濃い味・簡便」と、高たんぱく・腸活の「機能性」に二極化している。",
+      "en_body": "Bulk snack chains grew at a 77.9% annual pace from 2019 to 2024 and are projected to add 36.5% a year through 2029, with Tmall and JD joined by instant delivery from Meituan. Products are splitting in two: convenient indulgence such as spicy meat snacks, and functional lines built on high protein and gut health.",
+      "src": "出典：Mintel／Research and Markets／FoodNavigator-Asia"
+    }
+  ],
+  "trends": [
+    {
+      "ja": "スイシー（甘×辛）",
+      "en": "SWICY",
+      "ic": "chili"
+    },
+    {
+      "ja": "ピスタチオ",
+      "en": "PISTACHIO",
+      "ic": "ube"
+    },
+    {
+      "ja": "高たんぱく",
+      "en": "HIGH PROTEIN",
+      "ic": "cart"
+    },
+    {
+      "ja": "発酵・腸活",
+      "en": "GUT HEALTH",
+      "ic": "latte"
+    },
+    {
+      "ja": "世界の味の融合",
+      "en": "GLOBAL FUSION",
+      "ic": "noodlebowl"
+    }
+  ],
+  "products": [
+    {
+      "ja": "高たんぱく冷凍ミール",
+      "en": "HIGH-PROTEIN FROZEN MEALS",
+      "ic": "cart",
+      "region": "na",
+      "tag": "US ・ 26年の最大テーマ"
+    },
+    {
+      "ja": "ピスタチオ菓子",
+      "en": "PISTACHIO BAKERY",
+      "ic": "ube",
+      "region": "na",
+      "tag": "US ・ ナッツ系で最注目"
+    },
+    {
+      "ja": "芋栗スイーツ",
+      "en": "SWEET POTATO & CHESTNUT",
+      "ic": "onigiri",
+      "region": "jp",
+      "tag": "JP ・ 9月の秋商戦"
+    },
+    {
+      "ja": "緑茶・抹茶",
+      "en": "GREEN TEA & MATCHA",
+      "ic": "matcha_m",
+      "region": "jp",
+      "tag": "JP ・ 輸出の牽引役"
+    },
+    {
+      "ja": "マイルド版Kラーメン",
+      "en": "MILD K-RAMYUN",
+      "ic": "noodlebowl",
+      "region": "kr",
+      "tag": "KR ・ 7月に10億ドル超"
+    },
+    {
+      "ja": "量販スナック",
+      "en": "BULK SNACK CHAINS",
+      "ic": "popsicle",
+      "region": "cn",
+      "tag": "CN ・ 年36.5%成長予測"
+    }
+  ]
+}

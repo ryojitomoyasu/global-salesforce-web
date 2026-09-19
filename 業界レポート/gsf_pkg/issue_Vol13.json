@@ -1,0 +1,200 @@
+{
+  "vol": "13",
+  "date": "2026.09.18",
+  "week": "Sep 12 – Sep 18, 2026",
+  "this_week": [
+    "クローガーが通年見通し下方修正、既存店+0.2%",
+    "PBが食品飲料の24%、米国売上3,300億ドル",
+    "日本の上半期輸出8,977億円、2年連続で最高",
+    "K-FOOD輸出が253日で100億ドル、過去最速"
+  ],
+  "na": [
+    {
+      "region": "na",
+      "art": "trade",
+      "eyebrow": "RETAIL ・ 小売",
+      "ja": "クローガーが通年見通しを下方修正 ─ 既存店+0.2%、食品支出の争奪が激化",
+      "en": "Kroger cuts its full-year outlook as identical sales slow to 0.2%",
+      "ja_body": "クローガーは9月11日、26年通年の既存店売上見通しを下方修正した。燃料除く伸びは従来の1〜2%から0.2〜0.8%へ。第2四半期の既存店は+0.2%と前年の+3.4%から急減速し、食品支出の争奪が一段と激しくなっている。",
+      "en_body": "Kroger cut its full-year 2026 identical sales outlook on September 11. Growth excluding fuel is now seen at 0.2-0.8%, down from a previous 1-2%. Second-quarter identical sales rose just 0.2% against 3.4% a year earlier, as competition for grocery dollars intensifies.",
+      "src": "出典：The Kroger Co.／Bloomberg／Supermarket News"
+    },
+    {
+      "region": "na",
+      "eyebrow": "PRIVATE LABEL ・ PB",
+      "ja": "PBが食品・飲料の24% ─ 米国売上は3,300億ドルに",
+      "en": "Private label takes 24% of food and beverage dollars, $330bn in US sales",
+      "ja_body": "値下げ志向が鮮明だ。消費者の56%が低価格ブランドへ移り、その多くがPBへ流れた。米国のPB売上は3,300億ドル、食品・飲料の金額シェアは24%に達し、小売各社はPB投資を一段と積み増している。",
+      "en_body": "The trade-down is unmistakable. Some 56% of shoppers have moved to lower-priced brands, mostly to private label. US private label sales reached $330 billion, a 24% dollar share of food and beverage, and grocers keep raising private label investment.",
+      "src": "出典：Food Industry Executive／Circana／報道各社"
+    },
+    {
+      "region": "na",
+      "eyebrow": "PRICES ・ 価格",
+      "ja": "上半期の成長は「全て価格」 ─ 数量は横ばい、9月下旬も値上げ",
+      "en": "All of the first-half growth came from price, with volume flat",
+      "ja_body": "26年上半期の米食品・飲料小売売上は+2.2%だが、伸びは全て価格によるもので数量は横ばい。マコーミックは下期も値上げ効果を見込み、コナグラは9月下旬から幅広い商品を値上げすると小売に通知した。",
+      "en_body": "US retail food and beverage sales rose 2.2% in the first half of 2026, but all of it came from price, with volume flat. McCormick expects higher prices to lift second-half results, and Conagra told retailers it will raise prices on a range of goods from late September.",
+      "src": "出典：Circana／McCormick & Co.／Conagra Brands"
+    },
+    {
+      "region": "na",
+      "eyebrow": "STRATEGY ・ 値下げ",
+      "ja": "逆に値下げへ動く大手も ─ ペプシコは最大15%、ゼネラル・ミルズは3分の2",
+      "en": "Some giants cut instead: PepsiCo up to 15%, General Mills two-thirds",
+      "ja_body": "一方で値下げに動く大手もある。ペプシコはスナック多数を最大15%値下げすると表明。ゼネラル・ミルズは北米食品の約3分の2で価格を引き下げたが、26年度の数量は1ポイント減と苦戦した。",
+      "en_body": "Others are moving the other way. PepsiCo said it will cut prices by up to 15% on many snack brands. General Mills lowered prices on roughly two-thirds of its North America grocery portfolio, yet still closed fiscal 2026 with volume down a point.",
+      "src": "出典：PepsiCo／General Mills／Food Industry Executive"
+    },
+    {
+      "region": "na",
+      "eyebrow": "M&A ・ 企業",
+      "ja": "M&Aは健康志向に集中 ─ 高たんぱく系が買収の67.7%",
+      "en": "M&A concentrates on better-for-you: 67.7% of branded deals",
+      "ja_body": "M&Aは健康志向に集中している。26年のブランド買収では、高たんぱく・クリーンラベル・国際系などを掲げる案件が67.7%を占め、19年以来の高水準。クローガーは7月に地域スーパーのジャイアント・イーグルを約17億ドルで買収すると発表した。",
+      "en_body": "Deal-making has narrowed onto better-for-you. In 2026, brands positioned on high protein, clean label, international or sustainability accounted for 67.7% of branded acquisition activity, the highest share since 2019. Kroger said in July it would buy regional grocer Giant Eagle for about $1.7 billion.",
+      "src": "出典：Food Dive／Grocery Dive／The Kroger Co."
+    }
+  ],
+  "jp": [
+    {
+      "region": "jp",
+      "art": "summer",
+      "eyebrow": "EXPORT ・ 輸出",
+      "ja": "上半期の輸出は8,977億円 ─ 2年連続で過去最高、水産+19.5%",
+      "en": "First-half exports hit ¥897.7bn, a second straight record, seafood up 19.5%",
+      "ja_body": "26年上半期の農林水産物・食品の輸出額は8,977億円、前年同期比+10.9%で2年連続の過去最高となった。内訳は農産物5,674億円（+8.5%）、水産物2,384億円（+19.5%）。世界的な抹茶ブームで緑茶の伸びが目立ち、上位10カ国・地域すべてで前年を上回った。",
+      "en_body": "Japan's farm, forestry and fishery exports came to 897.7 billion yen in the first half of 2026, up 10.9% year on year and a record for a second straight year. Agricultural goods made 567.4 billion yen (+8.5%) and seafood 238.4 billion yen (+19.5%). Green tea stood out on the global matcha boom, and all top ten destinations grew.",
+      "src": "出典：農林水産省／ジェトロ／共同通信"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "PRODUCT ・ 秋商戦",
+      "ja": "秋は「蜜芋」へ ─ セブン‐イレブンが9月15日から全7品",
+      "en": "Autumn shifts to honey sweet potato: Seven-Eleven rolls out seven items",
+      "ja_body": "秋商戦は「芋」が続く。セブン‐イレブンは9月15日から旬の蜜芋を使った和洋菓子「蜜芋シリーズ」全7品を全国で順次発売。昨年に続き、さつまいも由来の甘さを前面に出した設計が定着している。",
+      "en_body": "Sweet potato keeps carrying the autumn season. From September 15 Seven-Eleven began a phased national rollout of seven Japanese and Western sweets using in-season honey sweet potato. As last year, the recipes lean on the root's own sweetness, a format now well established.",
+      "src": "出典：セブン‐イレブン・ジャパン公式発表／報道各社"
+    },
+    {
+      "region": "jp",
+      "eyebrow": "PRICES ・ 値上げ",
+      "ja": "9月の値上げは4,923品目 ─ 年内最多、累計は1万9,083品目",
+      "en": "September repricing reaches 4,923 items, the year's heaviest month",
+      "ja_body": "9月の飲食料品値上げは4,923品目と単月で年内最多、前年9月の約3倍となった。しょうゆ・酢・めんつゆなど調味料が約2,000品目を占め、バター・チーズ、飲料、ポテトチップスにも及ぶ。26年の累計は1万9,083品目。",
+      "en_body": "September repricing covered 4,923 food and drink items, the heaviest single month this year and about triple September last year. Seasonings such as soy sauce, vinegar and noodle soup base made up close to 2,000, and the list extends to butter, cheese, drinks and potato chips. The 2026 total is 19,083 items.",
+      "src": "出典：帝国データバンク／報道各社"
+    }
+  ],
+  "kr": [
+    {
+      "region": "kr",
+      "eyebrow": "EXPORT ・ K-FOOD",
+      "ja": "K-FOOD輸出が253日で100億ドル ─ 過去最速、ラーメンが27.2%",
+      "en": "K-food exports pass $10bn in 253 days, the fastest ever, ramyeon 27.2%",
+      "ja_body": "K-FOODの輸出が加速している。26年の農食品輸出は253日で100億ドルを突破し、前年より19日早い過去最速ペースとなった。品目別ではラーメンが27.2%で最大。仕向け地は米国が18.1億ドル（+12.9%）、中国が16.7億ドル（+14.0%）。",
+      "en_body": "K-food exports keep accelerating. Korea's agri-food shipments passed $10 billion in 253 days in 2026, the fastest on record and 19 days ahead of last year's pace. Ramyeon was the largest single category at 27.2% of the total. By destination, the US took $1.81 billion (+12.9%) and China $1.67 billion (+14.0%).",
+      "src": "出典：韓国農林畜産食品部／The Korea Herald／KED Global"
+    },
+    {
+      "region": "kr",
+      "eyebrow": "CAPACITY ・ 生産能力",
+      "ja": "ノンシム・サミャンが増産 ─ 釜山の輸出専用工場が本格稼働へ",
+      "en": "Nongshim and Samyang add capacity as the export-only plant ramps up",
+      "ja_body": "生産能力の増強も進む。ノンシムは釜山・緑山の輸出専用工場が本格稼働すると釜山のラーメン生産が年10億食へ倍増し、米中拠点を含むグループ全体で約60億食となる。サミャンは密陽工場で18億食から25億食へ引き上げる。",
+      "en_body": "Capacity is being added behind the demand. Once Nongshim's export-only plant in Noksan, Busan runs at full tilt, Busan ramyeon output doubles to 1 billion units a year, taking group capacity including US and China sites to about 6 billion. Samyang is lifting Miryang from 1.8 billion to 2.5 billion units.",
+      "src": "出典：農心（ノンシム）／三養食品（サミャン）／KED Global"
+    }
+  ],
+  "cn": [
+    {
+      "region": "cn",
+      "eyebrow": "RETAIL ・ 即時小売",
+      "ja": "即時小売の勢力図が固まる ─ タオバオ閃購45.7%、メイトゥアン45.3%",
+      "en": "China's instant retail settles: Taobao Shangou 45.7%, Meituan 45.3%",
+      "ja_body": "即時小売（クイックコマース）の主戦場が固まってきた。26年4-6月のシェアはアリババのタオバオ閃購が45.7%、メイトゥアン（美団）が45.3%、ジンドン（京東）が7.7%。当局の警告で消費者向け補助金はほぼ終了したが、値引き競争の間、飲食店の利益は最大8.9%落ち込んだ。",
+      "en_body": "China's instant retail battlefield has taken shape. In the second quarter of 2026, Alibaba's Taobao Shangou held 45.7% share, Meituan 45.3% and JD.com 7.7%. Consumer subsidies have largely ended after repeated warnings from regulators, but during the discounting phase restaurant profits fell by as much as 8.9%.",
+      "src": "出典：Reuters／Yicai Global／Inside Retail Asia"
+    },
+    {
+      "region": "cn",
+      "eyebrow": "SNACK ・ スナック",
+      "ja": "スナックは健康・プレミアム・地域化へ ─ 量り売りが新チャネルに",
+      "en": "Snacks pivot to health, premium and localization as bulk formats spread",
+      "ja_body": "スナックは健康志向とプレミアム化、地域の味へのローカライズが軸になっている。中国のオンライン小売は25年に+8.6%の約2,237億ドルで、小売全体の+3.7%を大きく上回った。セブン‐イレブンは7月22日、江蘇省で穀物・ナッツから肉系まで揃えた量り売り「7 Fresh Snacks」を導入した。",
+      "en_body": "Snacking in China is organizing around health, premium positioning and localized flavor. Online retail grew 8.6% in 2025 to about $223.7 billion, far outpacing the 3.7% rise in total retail. On July 22, Seven-Eleven introduced 7 Fresh Snacks in Jiangsu province, a bulk format running from grains and nuts through to meat items.",
+      "src": "出典：USDA FAS／Mintel／Nation Thailand"
+    }
+  ],
+  "trends": [
+    {
+      "ja": "高たんぱく",
+      "en": "HIGH PROTEIN",
+      "ic": "cart"
+    },
+    {
+      "ja": "スイシー（甘×辛）",
+      "en": "SWICY",
+      "ic": "chili"
+    },
+    {
+      "ja": "ピスタチオ",
+      "en": "PISTACHIO",
+      "ic": "ube"
+    },
+    {
+      "ja": "抹茶",
+      "en": "MATCHA",
+      "ic": "matcha_m"
+    },
+    {
+      "ja": "世界の味の融合",
+      "en": "GLOBAL FUSION",
+      "ic": "noodlebowl"
+    }
+  ],
+  "products": [
+    {
+      "ja": "プレミアムPB",
+      "en": "PREMIUM PRIVATE LABEL",
+      "ic": "cart",
+      "region": "na",
+      "tag": "US ・ 食品飲料の24%"
+    },
+    {
+      "ja": "高たんぱくスナック",
+      "en": "HIGH-PROTEIN SNACKS",
+      "ic": "soda",
+      "region": "na",
+      "tag": "US ・ M&Aの主役"
+    },
+    {
+      "ja": "蜜芋スイーツ",
+      "en": "HONEY SWEET POTATO",
+      "ic": "onigiri",
+      "region": "jp",
+      "tag": "JP ・ 9月15日発売"
+    },
+    {
+      "ja": "緑茶・抹茶",
+      "en": "GREEN TEA & MATCHA",
+      "ic": "matcha_m",
+      "region": "jp",
+      "tag": "JP ・ 輸出の牽引役"
+    },
+    {
+      "ja": "韓国ラーメン",
+      "en": "KOREAN RAMYEON",
+      "ic": "noodlebowl",
+      "region": "kr",
+      "tag": "KR ・ 輸出の27.2%"
+    },
+    {
+      "ja": "量り売りスナック",
+      "en": "BULK FRESH SNACKS",
+      "ic": "popsicle",
+      "region": "cn",
+      "tag": "CN ・ 新チャネル拡大"
+    }
+  ]
+}
