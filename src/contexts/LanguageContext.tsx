@@ -77,6 +77,9 @@ const translations: Record<Lang, Record<string, string>> = {
         'about.why2.desc': '複雑な意思決定プロセスを排除し、テストマーケティングから本格導入まで、最短ルートで成果を追求します。',
         'about.why3.title': '日米両言語でのシームレスな連携',
         'about.why3.desc': '商談は英語で、貴社へのご報告は日本語で。言葉や文化の壁を感じさせない透明性の高いコミュニケーションを実現。',
+        'reports.loading': 'レポートを読み込み中...',
+        'reports.subtitle': '毎週更新される最新の業界レポートをご覧いただけます。',
+        'reports.read': 'レポートを読む →',
     },
     en: {
         // Header / Nav
@@ -144,6 +147,9 @@ const translations: Record<Lang, Record<string, string>> = {
         'about.why2.desc': 'We cut through complex decision-making and pursue results at the fastest possible pace—from test marketing to full-scale launch.',
         'about.why3.title': 'Seamless Bilingual Partnership',
         'about.why3.desc': 'Negotiations in English, reporting to you in Japanese. We deliver transparent, high-quality communication with no language or culture barriers.',
+        'reports.loading': 'Loading reports...',
+        'reports.subtitle': 'Browse our latest industry reports, updated weekly. (Reports are written in Japanese.)',
+        'reports.read': 'Read the report →',
     },
 };
 
