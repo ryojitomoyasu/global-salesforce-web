@@ -6,9 +6,11 @@ import { Button } from "@/components/ui/Button";
 import { ArrowUpRight } from "lucide-react";
 import { FormEvent, useState } from "react";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function ContactPage() {
     const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+    const { t } = useLanguage();
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -47,8 +49,7 @@ export default function ContactPage() {
                         <div>
                             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Contact Us</h1>
                             <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-                                米国での販路拡大や市場参入について、お気軽にご相談ください。
-                                3営業日以内に担当者よりご連絡いたします。
+                                {t('contact.intro')}
                             </p>
 
 
@@ -60,49 +61,54 @@ export default function ContactPage() {
                                     <div className="w-16 h-16 rounded-full bg-green-100 dark:bg-green-800/50 flex items-center justify-center mb-6">
                                         <svg className="w-8 h-8 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                                     </div>
-                                    <h3 className="text-2xl font-bold mb-2">お問い合わせ完了</h3>
+                                    <h3 className="text-2xl font-bold mb-2">{t('contact.success.title')}</h3>
                                     <p className="mb-6">
-                                        ありがとうございます。<br />
-                                        ご入力いただいた内容を受け付けました。担当者より折り返しご連絡いたします。
+                                        {t('contact.success.thanks')}<br />
+                                        {t('contact.success.body')}
                                     </p>
                                     <Button onClick={() => setStatus("idle")} variant="outline">
-                                        別の問い合わせをする
+                                        {t('contact.success.again')}
                                     </Button>
                                 </div>
                             ) : (
                                 <form onSubmit={handleSubmit} className="space-y-6">
+                                    {/* Honeypot for bots: hidden from visitors, must stay empty */}
+                                    <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: 1, height: 1, overflow: "hidden" }}>
+                                        <label htmlFor="website">Website</label>
+                                        <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
+                                    </div>
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                         <div className="space-y-2">
-                                            <label htmlFor="company" className="text-sm font-medium">会社名 <span className="text-red-500">*</span></label>
-                                            <input id="company" name="company" required className="flex h-11 w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder="株式会社〇〇" />
+                                            <label htmlFor="company" className="text-sm font-medium">{t('contact.company')} <span className="text-red-500">*</span></label>
+                                            <input id="company" name="company" required maxLength={200} className="flex h-11 w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder={t('contact.company.placeholder')} />
                                         </div>
                                         <div className="space-y-2">
-                                            <label htmlFor="name" className="text-sm font-medium">氏名 <span className="text-red-500">*</span></label>
-                                            <input id="name" name="name" required className="flex h-11 w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder="山田 太郎" />
+                                            <label htmlFor="name" className="text-sm font-medium">{t('contact.name')} <span className="text-red-500">*</span></label>
+                                            <input id="name" name="name" required maxLength={100} className="flex h-11 w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder={t('contact.name.placeholder')} />
                                         </div>
                                     </div>
                                     <div className="space-y-2">
-                                        <label htmlFor="email" className="text-sm font-medium">メールアドレス <span className="text-red-500">*</span></label>
-                                        <input id="email" name="email" type="email" required className="flex h-11 w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder="taro.yamada@example.com" />
+                                        <label htmlFor="email" className="text-sm font-medium">{t('contact.email')} <span className="text-red-500">*</span></label>
+                                        <input id="email" name="email" type="email" required maxLength={254} className="flex h-11 w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder={t('contact.email.placeholder')} />
                                     </div>
                                     <div className="space-y-2">
-                                        <label htmlFor="subject" className="text-sm font-medium">タイトル <span className="text-red-500">*</span></label>
-                                        <input id="subject" name="subject" required autoComplete="off" className="flex h-11 w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder="お問い合わせの件名" />
+                                        <label htmlFor="subject" className="text-sm font-medium">{t('contact.subject')} <span className="text-red-500">*</span></label>
+                                        <input id="subject" name="subject" required maxLength={200} autoComplete="off" className="flex h-11 w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder={t('contact.subject.placeholder')} />
                                     </div>
                                     <div className="space-y-2">
-                                        <label htmlFor="message" className="text-sm font-medium">相談内容・現状の課題など <span className="text-red-500">*</span></label>
-                                        <textarea id="message" name="message" required rows={5} className="flex w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder="現在の米国進出状況や、抱えている課題についてご自由にお書きください。"></textarea>
+                                        <label htmlFor="message" className="text-sm font-medium">{t('contact.message')} <span className="text-red-500">*</span></label>
+                                        <textarea id="message" name="message" required maxLength={5000} rows={5} className="flex w-full rounded-sm border border-border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-foreground disabled:cursor-not-allowed disabled:opacity-50" placeholder={t('contact.message.placeholder')}></textarea>
                                     </div>
 
                                     {status === "error" && (
-                                        <p className="text-red-500 text-sm">エラーが発生しました。時間をおいて再度お試しください。</p>
+                                        <p className="text-red-500 text-sm">{t('contact.error')}</p>
                                     )}
 
                                     <Button type="submit" size="lg" className="w-full h-12 text-base" disabled={status === "submitting"}>
-                                        {status === "submitting" ? "送信中..." : "送信する"}
+                                        {status === "submitting" ? t('contact.sending') : t('contact.send')}
                                     </Button>
                                     <p className="text-xs text-muted-foreground text-center mt-4">
-                                        送信することにより、<Link href="/privacy" className="underline">プライバシーポリシー</Link>に同意したものとみなされます。
+                                        {t('contact.consent.before')}<Link href="/privacy" className="underline">{t('contact.consent.link')}</Link>{t('contact.consent.after')}
                                     </p>
                                 </form>
                             )}

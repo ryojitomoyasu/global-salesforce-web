@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { ArrowRight, Calendar, Tag } from "lucide-react";
 import { ReportCarousel } from "@/components/reports/ReportCarousel";
+import { T, LangSwitch } from "@/contexts/LanguageContext";
 
 export const metadata: Metadata = {
     title: "Report/Blog | Global Sales Force",
@@ -13,6 +14,8 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
     const posts = getMdxFiles("blog");
+    // English versions live in src/content/blog-en/ under the same file name
+    const postsEn = getMdxFiles("blog-en");
 
     return (
         <div className="flex flex-col min-h-screen">
@@ -26,7 +29,7 @@ export default function BlogPage() {
                         </p>
                         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Report/Blog</h1>
                         <p className="text-xl text-muted-foreground leading-relaxed">
-                            米国食品市場への進出に関するノウハウ、現場からの最新情報、成功事例をお届けします。
+                            <T k="blog.subtitle" />
                         </p>
                     </div>
 
@@ -40,11 +43,13 @@ export default function BlogPage() {
                     {/* Post Grid */}
                     {posts.length === 0 ? (
                         <div className="text-center py-24 text-muted-foreground">
-                            <p className="text-lg">記事は近日公開予定です。</p>
+                            <p className="text-lg"><T k="blog.empty" /></p>
                         </div>
                     ) : (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            {posts.map((post) => (
+                            {posts.map((post) => {
+                                const en = postsEn.find((p) => p.slug === post.slug)?.frontmatter ?? post.frontmatter;
+                                return (
                                 <Link
                                     href={`/blog/${post.slug}`}
                                     key={post.slug}
@@ -57,7 +62,7 @@ export default function BlogPage() {
                                             <div className="absolute top-4 left-4">
                                                 <span className="inline-flex items-center gap-1.5 bg-background/90 backdrop-blur-sm text-foreground text-xs font-semibold px-3 py-1.5 rounded-full border border-border/50">
                                                     <Tag className="w-3 h-3" />
-                                                    {post.frontmatter.category}
+                                                    <LangSwitch ja={post.frontmatter.category} en={en.category ?? post.frontmatter.category} />
                                                 </span>
                                             </div>
                                         )}
@@ -72,18 +77,19 @@ export default function BlogPage() {
                                             </div>
                                         )}
                                         <h2 className="font-bold text-lg mb-3 leading-snug group-hover:text-foreground/70 transition-colors">
-                                            {post.frontmatter.title}
+                                            <LangSwitch ja={post.frontmatter.title} en={en.title} />
                                         </h2>
                                         <p className="text-muted-foreground text-sm leading-relaxed line-clamp-3 mb-4 flex-1">
-                                            {post.frontmatter.description}
+                                            <LangSwitch ja={post.frontmatter.description} en={en.description} />
                                         </p>
                                         <div className="flex items-center text-sm font-semibold text-foreground/70 group-hover:text-foreground transition-colors mt-auto">
-                                            続きを読む
+                                            <T k="blog.readMore" />
                                             <ArrowRight className="ml-1.5 w-4 h-4 transition-transform group-hover:translate-x-1" />
                                         </div>
                                     </div>
                                 </Link>
-                            ))}
+                                );
+                            })}
                         </div>
                     )}
                 </div>

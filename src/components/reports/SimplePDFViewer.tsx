@@ -5,6 +5,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import { X, ChevronLeft, ChevronRight, Loader2, ZoomIn, ZoomOut, BookOpen, File } from "lucide-react";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 // Set up the worker for react-pdf
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
@@ -21,6 +22,7 @@ export function SimplePDFViewer({ pdfUrl, isOpen, onClose }: SimplePDFViewerProp
     const [isMobile, setIsMobile] = useState<boolean>(false);
     const [scale, setScale] = useState<number>(1.0);
     const [viewMode, setViewMode] = useState<"single" | "double">("single");
+    const { t } = useLanguage();
 
     useEffect(() => {
         const checkMobile = () => {
@@ -114,9 +116,9 @@ export function SimplePDFViewer({ pdfUrl, isOpen, onClose }: SimplePDFViewerProp
                     {!isMobile && (
                         <button onClick={toggleViewMode} className="p-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors flex items-center gap-2" aria-label="Toggle View Mode">
                             {viewMode === "single" ? (
-                                <><BookOpen className="w-5 h-5" /><span className="text-sm hidden md:inline">見開き表示</span></>
+                                <><BookOpen className="w-5 h-5" /><span className="text-sm hidden md:inline">{t('pdf.double')}</span></>
                             ) : (
-                                <><File className="w-5 h-5" /><span className="text-sm hidden md:inline">単一ページ表示</span></>
+                                <><File className="w-5 h-5" /><span className="text-sm hidden md:inline">{t('pdf.single')}</span></>
                             )}
                         </button>
                     )}
@@ -150,7 +152,7 @@ export function SimplePDFViewer({ pdfUrl, isOpen, onClose }: SimplePDFViewerProp
                         loading={
                             <div className="flex flex-col items-center text-white/50">
                                 <Loader2 className="w-8 h-8 animate-spin mb-4" />
-                                <p>PDFを読み込み中...</p>
+                                <p>{t('pdf.loading')}</p>
                             </div>
                         }
                         className="flex shadow-2xl"

@@ -2,13 +2,15 @@
 
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { books, BOOK_CATEGORIES, type Book } from "@/lib/books";
+import { books, BOOK_CATEGORIES, BOOK_CATEGORY_LABELS_EN, type Book } from "@/lib/books";
 import { photos } from "@/lib/photos";
 import { ExternalLink, BookOpen, Tag } from "lucide-react";
 import { useState } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function GalleryPage() {
     const [activeCategory, setActiveCategory] = useState<string>("すべて");
+    const { lang, t } = useLanguage();
 
     const filtered = activeCategory === "すべて"
         ? books
@@ -29,7 +31,7 @@ export default function GalleryPage() {
                             Gallery
                         </h1>
                         <p className="text-base text-muted-foreground leading-relaxed">
-                            私たちの活動の記録や、おすすめの書籍をご紹介します。
+                            {t('gallery.subtitle')}
                         </p>
                     </div>
 
@@ -56,10 +58,10 @@ export default function GalleryPage() {
                     <section>
                         <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-4">Recommended Books</h2>
                         <p className="text-base text-muted-foreground leading-relaxed mb-8 max-w-3xl">
-                            ここで紹介するのは、私自身が読んで心を動かされ、「仲間にも読んでほしい」と思った本です。一人ひとりが学び、視野を広げていけば、チーム全体のレベルは自然と上がっていく。その積み重ねが、より良い会社・より強い組織をつくると信じてこのページを作成しました。
+                            {t('gallery.books.intro')}
                         </p>
                         <p className="text-xs text-muted-foreground mb-8 p-3 bg-muted rounded-md inline-block">
-                            ※ 本ページのリンクはAmazonアソシエイトプログラムを利用しています。リンクを経由してご購入いただいた収益は、日本の食文化や商品をアメリカに広げる活動のために使わせていただきます。
+                            {t('gallery.books.disclosure')}
                         </p>
 
                         {/* Category Filter */}
@@ -74,7 +76,7 @@ export default function GalleryPage() {
                                             : "bg-background text-muted-foreground border-border hover:border-foreground/40 hover:text-foreground"
                                     }`}
                                 >
-                                    {cat}
+                                    {categoryLabel(cat, lang)}
                                 </button>
                             ))}
                         </div>
@@ -83,7 +85,7 @@ export default function GalleryPage() {
                         {filtered.length === 0 ? (
                             <div className="text-center py-24 text-muted-foreground">
                                 <BookOpen className="w-12 h-12 mx-auto mb-4 opacity-30" />
-                                <p>このカテゴリの本は近日公開予定です。</p>
+                                <p>{t('gallery.books.empty')}</p>
                             </div>
                         ) : (
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,7 +103,19 @@ export default function GalleryPage() {
     );
 }
 
+function categoryLabel(category: string, lang: string) {
+    return lang === "en" ? BOOK_CATEGORY_LABELS_EN[category] ?? category : category;
+}
+
 function BookCard({ book }: { book: Book }) {
+    const { lang, t } = useLanguage();
+    const en = lang === "en";
+    const title = (en && book.titleEn) || book.title;
+    const author = (en && book.authorEn) || book.author;
+    const publisher = (en && book.publisherEn) || book.publisher;
+    const description = (en && book.descriptionEn) || book.description;
+    const comment = (en && book.commentEn) || book.comment;
+
     return (
         <div className="group flex flex-col h-full border border-border rounded-xl overflow-hidden hover:border-foreground/30 hover:shadow-lg transition-all duration-300 bg-card">
             {/* Book Cover */}
@@ -110,20 +124,20 @@ function BookCard({ book }: { book: Book }) {
                     /* eslint-disable-next-line @next/next/no-img-element */
                     <img
                         src={book.coverUrl}
-                        alt={book.title}
+                        alt={title}
                         className="h-full w-auto object-contain mx-auto py-4"
                     />
                 ) : (
                     <div className="flex flex-col items-center justify-center gap-3 text-muted-foreground/40 px-8 text-center h-full bg-gradient-to-br from-neutral-100 to-neutral-200 dark:from-neutral-800 dark:to-neutral-900 w-full">
                         <BookOpen className="w-12 h-12" />
-                        <span className="text-xs font-medium leading-snug">{book.title}</span>
+                        <span className="text-xs font-medium leading-snug">{title}</span>
                     </div>
                 )}
                 {/* Category badge */}
                 <div className="absolute top-3 left-3">
                     <span className="inline-flex items-center gap-1 bg-background/90 backdrop-blur-sm text-foreground text-xs font-semibold px-2.5 py-1 rounded-full border border-border/50">
                         <Tag className="w-3 h-3" />
-                        {book.category}
+                        {categoryLabel(book.category, lang)}
                     </span>
                 </div>
             </div>
@@ -131,22 +145,25 @@ function BookCard({ book }: { book: Book }) {
             {/* Card body */}
             <div className="flex flex-col flex-1 p-6">
                 <h2 className="font-bold text-lg leading-snug mb-1 group-hover:text-foreground/70 transition-colors">
-                    {book.title}
+                    {title}
                 </h2>
-                <p className="text-sm text-muted-foreground mb-1">{book.author}</p>
-                {(book.publisher || book.year) && (
+                {en && book.titleEn && (
+                    <p className="text-xs text-muted-foreground/60 mb-1">{book.title} (Japanese edition)</p>
+                )}
+                <p className="text-sm text-muted-foreground mb-1">{author}</p>
+                {(publisher || book.year) && (
                     <p className="text-xs text-muted-foreground/60 mb-4">
-                        {[book.publisher, book.year].filter(Boolean).join(" · ")}
+                        {[publisher, book.year].filter(Boolean).join(" · ")}
                     </p>
                 )}
 
                 <p className="text-sm text-muted-foreground leading-relaxed mb-3 flex-1">
-                    {book.description}
+                    {description}
                 </p>
 
                 {/* Personal comment */}
                 <blockquote className="border-l-4 border-border pl-4 text-sm italic text-muted-foreground mb-6">
-                    {book.comment}
+                    {comment}
                 </blockquote>
 
                 {/* CTA button */}
@@ -156,7 +173,7 @@ function BookCard({ book }: { book: Book }) {
                     rel="noopener noreferrer"
                     className="mt-auto inline-flex items-center justify-center gap-2 w-full py-3 px-4 rounded-lg bg-foreground text-background text-sm font-semibold hover:bg-foreground/80 transition-colors"
                 >
-                    Amazonで見る
+                    {t('gallery.books.cta')}
                     <ExternalLink className="w-4 h-4 shrink-0" />
                 </a>
             </div>

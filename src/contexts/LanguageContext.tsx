@@ -77,9 +77,50 @@ const translations: Record<Lang, Record<string, string>> = {
         'about.why2.desc': '複雑な意思決定プロセスを排除し、テストマーケティングから本格導入まで、最短ルートで成果を追求します。',
         'about.why3.title': '日米両言語でのシームレスな連携',
         'about.why3.desc': '商談は英語で、貴社へのご報告は日本語で。言葉や文化の壁を感じさせない透明性の高いコミュニケーションを実現。',
+
+        // Report/Blog Page
+        'blog.subtitle': '米国食品市場への進出に関するノウハウ、現場からの最新情報、成功事例をお届けします。',
+        'blog.empty': '記事は近日公開予定です。',
+        'blog.readMore': '続きを読む',
+        'blog.back': 'ブログ一覧へ戻る',
+
+        // Industry Reports / PDF Viewer
         'reports.loading': 'レポートを読み込み中...',
         'reports.subtitle': '毎週更新される最新の業界レポートをご覧いただけます。',
         'reports.read': 'レポートを読む →',
+        'pdf.double': '見開き表示',
+        'pdf.single': '単一ページ表示',
+        'pdf.loading': 'PDFを読み込み中...',
+
+        // Gallery Page
+        'gallery.subtitle': '私たちの活動の記録や、おすすめの書籍をご紹介します。',
+        'gallery.books.intro': 'ここで紹介するのは、私自身が読んで心を動かされ、「仲間にも読んでほしい」と思った本です。一人ひとりが学び、視野を広げていけば、チーム全体のレベルは自然と上がっていく。その積み重ねが、より良い会社・より強い組織をつくると信じてこのページを作成しました。',
+        'gallery.books.disclosure': '※ 本ページのリンクはAmazonアソシエイトプログラムを利用しています。リンクを経由してご購入いただいた収益は、日本の食文化や商品をアメリカに広げる活動のために使わせていただきます。',
+        'gallery.books.empty': 'このカテゴリの本は近日公開予定です。',
+        'gallery.books.cta': 'Amazonで見る',
+
+        // Contact Page
+        'contact.intro': '米国での販路拡大や市場参入について、お気軽にご相談ください。3営業日以内に担当者よりご連絡いたします。',
+        'contact.success.title': 'お問い合わせ完了',
+        'contact.success.thanks': 'ありがとうございます。',
+        'contact.success.body': 'ご入力いただいた内容を受け付けました。担当者より折り返しご連絡いたします。',
+        'contact.success.again': '別の問い合わせをする',
+        'contact.company': '会社名',
+        'contact.company.placeholder': '株式会社〇〇',
+        'contact.name': '氏名',
+        'contact.name.placeholder': '山田 太郎',
+        'contact.email': 'メールアドレス',
+        'contact.email.placeholder': 'taro.yamada@example.com',
+        'contact.subject': 'タイトル',
+        'contact.subject.placeholder': 'お問い合わせの件名',
+        'contact.message': '相談内容・現状の課題など',
+        'contact.message.placeholder': '現在の米国進出状況や、抱えている課題についてご自由にお書きください。',
+        'contact.error': 'エラーが発生しました。時間をおいて再度お試しください。',
+        'contact.sending': '送信中...',
+        'contact.send': '送信する',
+        'contact.consent.before': '送信することにより、',
+        'contact.consent.link': 'プライバシーポリシー',
+        'contact.consent.after': 'に同意したものとみなされます。',
     },
     en: {
         // Header / Nav
@@ -147,9 +188,50 @@ const translations: Record<Lang, Record<string, string>> = {
         'about.why2.desc': 'We cut through complex decision-making and pursue results at the fastest possible pace—from test marketing to full-scale launch.',
         'about.why3.title': 'Seamless Bilingual Partnership',
         'about.why3.desc': 'Negotiations in English, reporting to you in Japanese. We deliver transparent, high-quality communication with no language or culture barriers.',
+
+        // Report/Blog Page
+        'blog.subtitle': 'Practical know-how on entering the US food market, the latest updates from the field, and success stories.',
+        'blog.empty': 'Articles coming soon.',
+        'blog.readMore': 'Read more',
+        'blog.back': 'Back to all articles',
+
+        // Industry Reports / PDF Viewer
         'reports.loading': 'Loading reports...',
         'reports.subtitle': 'Browse our latest industry reports, updated weekly. (Reports are written in Japanese.)',
         'reports.read': 'Read the report →',
+        'pdf.double': 'Two-page view',
+        'pdf.single': 'Single-page view',
+        'pdf.loading': 'Loading PDF...',
+
+        // Gallery Page
+        'gallery.subtitle': 'A look at our work in the field, along with books we recommend.',
+        'gallery.books.intro': 'The books introduced here are ones I have read myself, that truly moved me, and that I want my teammates to read too. When each of us keeps learning and broadening our perspective, the level of the whole team rises naturally. I created this page in the belief that this steady effort builds a better company and a stronger organization.',
+        'gallery.books.disclosure': '* Links on this page use the Amazon Associates program. Proceeds from purchases made through these links go toward our work of bringing Japanese food culture and products to America.',
+        'gallery.books.empty': 'Books in this category are coming soon.',
+        'gallery.books.cta': 'View on Amazon',
+
+        // Contact Page
+        'contact.intro': 'Feel free to reach out about expanding your sales channels or entering the US market. A member of our team will get back to you within 3 business days.',
+        'contact.success.title': 'Message Sent',
+        'contact.success.thanks': 'Thank you.',
+        'contact.success.body': 'We have received your inquiry. A member of our team will be in touch with you shortly.',
+        'contact.success.again': 'Send another inquiry',
+        'contact.company': 'Company',
+        'contact.company.placeholder': 'Your Company, Inc.',
+        'contact.name': 'Full Name',
+        'contact.name.placeholder': 'John Smith',
+        'contact.email': 'Email Address',
+        'contact.email.placeholder': 'john.smith@example.com',
+        'contact.subject': 'Subject',
+        'contact.subject.placeholder': 'Subject of your inquiry',
+        'contact.message': 'How can we help? (current situation, challenges, etc.)',
+        'contact.message.placeholder': 'Tell us about your current status in the US market and any challenges you are facing.',
+        'contact.error': 'Something went wrong. Please try again later.',
+        'contact.sending': 'Sending...',
+        'contact.send': 'Send',
+        'contact.consent.before': 'By submitting this form, you agree to our ',
+        'contact.consent.link': 'Privacy Policy',
+        'contact.consent.after': '.',
     },
 };
 
@@ -164,6 +246,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
             setLangState(stored);
         }
     }, []);
+
+    useEffect(() => {
+        document.documentElement.lang = lang;
+    }, [lang]);
 
     const setLang = (newLang: Lang) => {
         setLangState(newLang);
@@ -185,4 +271,15 @@ export function useLanguage(): LanguageContextType {
     const ctx = useContext(LanguageContext);
     if (!ctx) throw new Error('useLanguage must be used within LanguageProvider');
     return ctx;
+}
+
+// For server components (pages with metadata / MDX) that can't call useLanguage directly
+export function T({ k }: { k: string }) {
+    const { t } = useLanguage();
+    return <>{t(k)}</>;
+}
+
+export function LangSwitch({ ja, en }: { ja: React.ReactNode; en: React.ReactNode }) {
+    const { lang } = useLanguage();
+    return <>{lang === 'en' ? en : ja}</>;
 }

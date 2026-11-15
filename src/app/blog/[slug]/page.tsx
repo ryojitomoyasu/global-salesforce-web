@@ -5,6 +5,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import Link from "next/link";
 import { ArrowLeft, Calendar, Tag } from "lucide-react";
 import { notFound } from "next/navigation";
+import { T, LangSwitch } from "@/contexts/LanguageContext";
 
 export async function generateStaticParams() {
     const posts = getMdxFiles("blog");
@@ -17,6 +18,9 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
 
     if (!post) notFound();
 
+    // English version lives in src/content/blog-en/ under the same file name (falls back to Japanese)
+    const postEn = getMdxFileBySlug("blog-en", slug) ?? post;
+
     return (
         <div className="flex flex-col min-h-screen">
             <Header />
@@ -28,7 +32,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                         className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground mb-12 transition-colors"
                     >
                         <ArrowLeft className="mr-2 w-4 h-4" />
-                        ブログ一覧へ戻る
+                        <T k="blog.back" />
                     </Link>
 
                     <article className="max-w-3xl mx-auto">
@@ -38,7 +42,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                                 {post.frontmatter.category && (
                                     <span className="inline-flex items-center gap-1.5 bg-muted text-foreground/80 text-xs font-semibold px-3 py-1.5 rounded-full">
                                         <Tag className="w-3 h-3" />
-                                        {post.frontmatter.category}
+                                        <LangSwitch ja={post.frontmatter.category} en={postEn.frontmatter.category ?? post.frontmatter.category} />
                                     </span>
                                 )}
                                 {post.frontmatter.date && (
@@ -50,12 +54,12 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                             </div>
 
                             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 leading-[1.2]">
-                                {post.frontmatter.title}
+                                <LangSwitch ja={post.frontmatter.title} en={postEn.frontmatter.title} />
                             </h1>
 
                             {post.frontmatter.description && (
                                 <p className="text-xl text-muted-foreground leading-relaxed border-l-4 border-border pl-5 mb-8">
-                                    {post.frontmatter.description}
+                                    <LangSwitch ja={post.frontmatter.description} en={postEn.frontmatter.description} />
                                 </p>
                             )}
 
@@ -81,7 +85,10 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                             prose-a:text-foreground prose-a:underline prose-a:underline-offset-4
                             prose-strong:text-foreground
                             prose-blockquote:border-border prose-blockquote:text-muted-foreground">
-                            <MDXRemote source={post.content} />
+                            <LangSwitch
+                                ja={<MDXRemote source={post.content} />}
+                                en={<MDXRemote source={postEn.content} />}
+                            />
                         </div>
 
                         {/* Footer nav */}
@@ -91,7 +98,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                                 className="inline-flex items-center gap-2 font-semibold hover:underline underline-offset-4"
                             >
                                 <ArrowLeft className="w-4 h-4" />
-                                ブログ一覧へ戻る
+                                <T k="blog.back" />
                             </Link>
                         </div>
                     </article>
