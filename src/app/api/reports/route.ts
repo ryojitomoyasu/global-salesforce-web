@@ -1,14 +1,26 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+// 各号の記事見出し（業界レポート/gsf_pkg/build_site_highlights.py で生成）
+import highlightsData from "@/data/report-highlights.json";
 
 // Define the root directory for PDFs in the public folder
 const PDF_ROOT_DIR = path.join(process.cwd(), "public", "reports");
+
+interface Highlights {
+    kind: "weekly" | "special";
+    ja: string[];
+    en: string[];
+}
+
+const HIGHLIGHTS = highlightsData as Record<string, Highlights>;
 
 export interface ReportItem {
     name: string;
     relativePath: string;
     date: string;
+    kind: "weekly" | "special";
+    highlights?: { ja: string[]; en: string[] };
 }
 
 function getPdfsRecursive(dir: string, fileList: ReportItem[] = []): ReportItem[] {
@@ -35,12 +47,16 @@ function getPdfsRecursive(dir: string, fileList: ReportItem[] = []): ReportItem[
             const relativePath = path.relative(PDF_ROOT_DIR, filePath).replace(/\\/g, '/');
 
             // Clean up the name (remove extension and optional date parts if you want)
-            const name = file.replace(/\.pdf$/i, '').replace(/_/g, ' ');
+            const stem = file.replace(/\.pdf$/i, '');
+            const name = stem.replace(/_/g, ' ');
+            const h = HIGHLIGHTS[stem];
 
             fileList.push({
                 name,
                 relativePath,
-                date
+                date,
+                kind: h?.kind ?? (/Special|Report_/.test(stem) && !/Industry_Report/.test(stem) ? "special" : "weekly"),
+                highlights: h ? { ja: h.ja, en: h.en } : undefined,
             });
         }
     });

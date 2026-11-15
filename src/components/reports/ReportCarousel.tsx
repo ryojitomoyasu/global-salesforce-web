@@ -4,22 +4,38 @@ import React, { useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight, FileText } from "lucide-react";
 import dynamic from "next/dynamic";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const SimplePDFViewer = dynamic(
     () => import("./SimplePDFViewer").then(mod => mod.SimplePDFViewer),
     { ssr: false }
 );
 
+// 特別レポートの日本語タイトル → 英語表示名（ファイル名に日本語を使ったらここに追加）
+const REPORT_TITLES_EN: Record<string, string> = {
+    "スロッティングフィー": "Slotting Fees",
+    "関税解説": "Tariffs Explained",
+    "グミ・ポテチ国内市場": "Japan Gummy & Potato Chip Market",
+    "スシロー海外展開": "Sushiro Overseas Expansion",
+};
+
+function reportNameEn(name: string) {
+    return Object.entries(REPORT_TITLES_EN).reduce((n, [ja, en]) => n.replace(ja, en), name);
+}
+
 interface ReportItem {
     name: string;
     relativePath: string;
     date: string;
+    kind?: "weekly" | "special";
+    highlights?: { ja: string[]; en: string[] };
 }
 
 export function ReportCarousel() {
     const [reports, setReports] = useState<ReportItem[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
+    const { lang, t } = useLanguage();
 
     // Carousel setup
     const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -88,7 +104,7 @@ export function ReportCarousel() {
             <div className="py-12 flex justify-center items-center text-muted-foreground">
                 <div className="animate-pulse flex items-center gap-2">
                     <FileText className="w-5 h-5" />
-                    <span>レポートを読み込み中...</span>
+                    <span>{t('reports.loading')}</span>
                 </div>
             </div>
         );
@@ -104,7 +120,7 @@ export function ReportCarousel() {
                 <div>
                     <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Industry Reports</h2>
                     <p className="text-muted-foreground mt-2 text-sm md:text-base">
-                        毎週更新される最新の業界レポートをご覧いただけます。
+                        {t('reports.subtitle')}
                     </p>
                 </div>
                 
@@ -156,7 +172,7 @@ export function ReportCarousel() {
                                             Global Sales Force
                                         </p>
                                         <h3 className="text-white font-bold text-lg leading-tight line-clamp-3">
-                                            {report.name}
+                                            {lang === 'en' ? reportNameEn(report.name) : report.name}
                                         </h3>
                                     </div>
                                     {/* Binding styling to look like a book edge */}
@@ -165,10 +181,25 @@ export function ReportCarousel() {
                                 
                                 {/* Info section */}
                                 <div className="p-4 flex-1 flex flex-col bg-card">
-                                    <div className="text-xs text-muted-foreground mb-1">Weekly Report</div>
-                                    <div className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
-                                        レポートを読む →
+                                    <div className="text-xs text-muted-foreground mb-1">
+                                        {report.kind === 'special' ? 'Special Report' : 'Weekly Report'}
                                     </div>
+                                    <div className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
+                                        {t('reports.read')}
+                                    </div>
+                                    {/* この号の主な記事 */}
+                                    {report.highlights && (
+                                        <ul className="mt-3 pt-3 border-t border-border space-y-1.5">
+                                            {(lang === 'en' ? report.highlights.en : report.highlights.ja).map((item, i) => (
+                                                <li
+                                                    key={i}
+                                                    className="text-xs leading-snug text-muted-foreground pl-3 relative line-clamp-2 before:content-['•'] before:absolute before:left-0"
+                                                >
+                                                    {item}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    )}
                                 </div>
                             </button>
                         </div>
