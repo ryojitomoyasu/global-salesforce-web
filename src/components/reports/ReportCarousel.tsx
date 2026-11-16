@@ -187,8 +187,9 @@ export function ReportCarousel() {
                                                 <p className="text-slate-500 text-[10px] font-semibold tracking-wider uppercase mb-0.5">
                                                     {label.kicker}
                                                 </p>
-                                                <div className="flex items-baseline gap-3">
-                                                    <h3 className="text-[#C91F26] font-bold text-2xl leading-tight line-clamp-2">
+                                                {/* line-clamp(-webkit-box) は Safari で幅を狭く計算して「Vol.19」が「Vol.1」に切れるため使わない */}
+                                                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
+                                                    <h3 className={`text-[#C91F26] font-bold leading-tight ${report.kind === 'special' ? 'text-xl break-words' : 'text-2xl shrink-0 whitespace-nowrap'}`}>
                                                         {label.main}
                                                     </h3>
                                                     <span className="text-slate-500 text-xs whitespace-nowrap">{report.date}</span>
