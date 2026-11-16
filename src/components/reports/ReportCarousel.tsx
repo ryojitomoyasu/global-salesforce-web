@@ -29,6 +29,20 @@ interface ReportItem {
     date: string;
     kind?: "weekly" | "special";
     highlights?: { ja: string[]; en: string[] };
+    cover?: string;
+}
+
+// 表紙に載せる文字: 週刊は「Vol.19」、スペシャルはテーマ名
+function coverLabel(report: ReportItem, lang: string) {
+    const vol = report.name.match(/Vol\s?(\d+)/i);
+    if (report.kind !== 'special' && vol) {
+        return { kicker: "GSF Industry Report", main: `Vol.${parseInt(vol[1], 10)}` };
+    }
+    const topic = report.name
+        .replace(/\d{4}-\d{2}-\d{2}/, "")
+        .replace(/^GSF\s+(Special\s+)?Report\s*/i, "")
+        .trim();
+    return { kicker: "GSF Special Report", main: lang === 'en' ? reportNameEn(topic) : topic };
 }
 
 export function ReportCarousel() {
@@ -157,7 +171,32 @@ export function ReportCarousel() {
                                 onClick={() => openReport(report)}
                                 className="group w-full text-left flex flex-col h-full bg-background rounded-xl overflow-hidden border border-border hover:border-foreground/30 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-ring"
                             >
-                                {/* Styled Cover */}
+                                {report.cover ? (() => {
+                                    const label = coverLabel(report, lang);
+                                    return (
+                                        /* 絵の表紙: 1か月ぶん並べると1枚の絵につながる */
+                                        <div className="aspect-[3/4] w-full relative overflow-hidden bg-white">
+                                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                                            <img
+                                                src={report.cover}
+                                                alt=""
+                                                loading="lazy"
+                                                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                                            />
+                                            <div className="absolute inset-x-0 bottom-0 px-5 pb-5 pt-10 bg-gradient-to-t from-white via-white/90 to-transparent">
+                                                <p className="text-slate-500 text-[10px] font-semibold tracking-wider uppercase mb-0.5">
+                                                    {label.kicker}
+                                                </p>
+                                                <div className="flex items-baseline gap-3">
+                                                    <h3 className="text-[#C91F26] font-bold text-2xl leading-tight line-clamp-2">
+                                                        {label.main}
+                                                    </h3>
+                                                    <span className="text-slate-500 text-xs whitespace-nowrap">{report.date}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })() : (
                                 <div className="aspect-[3/4] w-full relative bg-gradient-to-br from-indigo-900 via-slate-800 to-black p-6 flex flex-col justify-between overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 opacity-10">
                                         <FileText className="w-32 h-32" />
@@ -178,6 +217,7 @@ export function ReportCarousel() {
                                     {/* Binding styling to look like a book edge */}
                                     <div className="absolute left-0 top-0 bottom-0 w-4 bg-gradient-to-r from-black/60 to-transparent border-r border-white/10"></div>
                                 </div>
+                                )}
                                 
                                 {/* Info section */}
                                 <div className="p-4 flex-1 flex flex-col bg-card">

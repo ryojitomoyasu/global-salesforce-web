@@ -11,6 +11,7 @@ interface Highlights {
     kind: "weekly" | "special";
     ja: string[];
     en: string[];
+    cover?: string | null;
 }
 
 const HIGHLIGHTS = highlightsData as Record<string, Highlights>;
@@ -21,6 +22,7 @@ export interface ReportItem {
     date: string;
     kind: "weekly" | "special";
     highlights?: { ja: string[]; en: string[] };
+    cover?: string;
 }
 
 function getPdfsRecursive(dir: string, fileList: ReportItem[] = []): ReportItem[] {
@@ -57,6 +59,7 @@ function getPdfsRecursive(dir: string, fileList: ReportItem[] = []): ReportItem[
                 date,
                 kind: h?.kind ?? (/Special|Report_/.test(stem) && !/Industry_Report/.test(stem) ? "special" : "weekly"),
                 highlights: h ? { ja: h.ja, en: h.en } : undefined,
+                cover: h?.cover ?? undefined,
             });
         }
     });
